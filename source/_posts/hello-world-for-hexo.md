@@ -66,7 +66,7 @@ hexo s
 
 *************************  
 >本文参考网上多篇帖子,欢迎转载.
-本文链接：[[http://ioliu.cn/2015/05/06/hello-world-for-hexo](http://ioliu.cn/2015/05/06/hello-world-for-hexo/)]  
+本文链接：[[http://ioliu.cn/2015/hello-world-for-hexo](http://ioliu.cn/2015/hello-world-for-hexo/)]  
 Hexo官网：[[http://Hexo.io](http://hexo.io)]  
 
 *************************  

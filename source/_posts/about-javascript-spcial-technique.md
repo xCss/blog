@@ -178,7 +178,7 @@ JavaScript 具备自动插入分号的能力，但是自动插入分号并不是
 
 *************************  
 >本文转载自博客园,原文略有删减,侵权即删.
-本文链接：[[http://ioliu.cn/2015/05/07/javascript-spcial-technique](http://ioliu.cn/2015/05/07/javascript-spcial-technique/)]
+本文链接：[[http://ioliu.cn/2015/javascript-spcial-technique](http://ioliu.cn/2015/javascript-spcial-technique/)]
 原文链接：[你可能不知道的一些JavaScript 奇技淫巧](http://www.cnblogs.com/dson/p/4415278.html) 
 原文作者：[FirstLovt](http://www.cnblogs.com/dson/) 
 
