@@ -42,6 +42,6 @@ window.onload = function(){
 
 *************************  
 >本文为原创,欢迎转载,但请保留出处.
-本文链接：[[http://ioliu.cn/2014/solve-question-for-getElementsByClassName-on-ie](http://ioliu.cn/2014/solve-question-for-getElementsByClassName-on-ie)]  
+本文链接：[[http://ioliu.cn/solve-question-for-getElementsByClassName-on-ie](http://ioliu.cn/solve-question-for-getElementsByClassName-on-ie)]  
 
 *************************  

@@ -90,7 +90,7 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 
 *************************  
 >本文为原创,欢迎转载,但请保留出处.
-本文链接：[[http://ioliu.cn/2013/preferences-sublime](http://ioliu.cn/2013/preferences-sublime)]  
+本文链接：[[http://ioliu.cn/preferences-sublime](http://ioliu.cn/preferences-sublime)]  
 SublimeText官网:[[http://www.sublimetext.com/](http://www.sublimetext.com/)]  
 
 *************************  
