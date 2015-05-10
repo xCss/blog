@@ -67,7 +67,10 @@ theme: next
 duoshuo: 
     shortname: ioliu
 baidu_analytics: 9cab9232535f34b793312a5204874e45
-google_analytics: UA-61934506-1
+google_analytics: UA-61934506-1 
+
+sitemap:
+    path: sitemap.xml
 
 #站内搜索
 #swiftype_key: Aw2vnunYb9BSuaWU4shh
