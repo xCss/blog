@@ -67,7 +67,7 @@ theme: next
 duoshuo: 
     shortname: ioliu
 baidu_analytics: 9cab9232535f34b793312a5204874e45
-google_analytics: UA-61934506-1 
+google_analytics: UA-61934506-1
 
 sitemap:
     path: sitemap.xml
@@ -88,8 +88,8 @@ creative_commons: by-nc-sa
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss: 
-feed:
+
+feed: 
   type: atom
   path: atom.xml
   limit: 20
@@ -98,4 +98,4 @@ feed:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/ioliu/ioliu.github.com.git
+  repo: https://github.com/ioliu/ioliu.github.com.git 
