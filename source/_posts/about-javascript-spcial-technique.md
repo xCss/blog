@@ -5,7 +5,7 @@ tags:
  - JavaScript技巧 
  - 结构类型
  - 数组遍历 
-categories: Coding
+categories: Development
 ---
 <blockquote class="blockquote-center">这里记录一下以前学习各种书籍和文章里边出现的JS的小技巧，分享给大家，也供自己查阅，同时感谢那些发现创造和分享这些技巧的前辈和大牛们。</blockquote>
 ##遍历一个obj的属性到数组  

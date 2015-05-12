@@ -3,7 +3,7 @@ date: 2015-05-06 10:21:08
 tags: 
  - Hexo
  - HelloWorld
-categories: Coding
+categories: Development
 ---
 ![hexo](http://7xilig.com1.z0.glb.clouddn.com/iohexo.io.png)  
 
