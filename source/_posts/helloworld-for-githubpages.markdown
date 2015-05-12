@@ -4,7 +4,7 @@ tags:
   - Jekyll
   - 免费博客
   - "GitHub Pages"
-categories: Development
+categories: Dev
 ---
 
 ![Jekyll](http://7xilig.com1.z0.glb.clouddn.com/octojekyll.png )  

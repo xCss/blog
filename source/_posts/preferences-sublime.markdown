@@ -26,7 +26,16 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 ```
 重启软件即可。
 
-**推荐插件**:  
+
+###三、插件的安装与卸载
+
+####1. 插件的安装：
+重启软件后，快捷键`Ctrl+Shift+P`就可以打开`Package Control`了，输入关键字`Install Package` + `回车`，会进入插件候选安装界面，输入你要安装的插件名称，如`Emmet`，找到后，回车安装。
+
+####2. 插件的卸载：
+打开`Package Control`，输入关键字`Remove Package`+`回车`，会进入插件候选删除界面，输入你要卸载的插件名称，如`Emmet`，找到后，回车卸载。
+
+####3. 推荐插件:  
 1. [Package Control](https://sublime.wbond.net/installation)
 2. [Git](https://github.com/kemayo/sublime-text-git)
 3. [GitGutter](https://github.com/jisaacks/GitGutter)
@@ -40,11 +49,6 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 11. [SideBarFolders](https://github.com/titoBouzout/SideBarFolders)
 12. [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
 
-###三、插件的安装与卸载
-1、插件的安装：
-重启软件后，快捷键`Ctrl+Shift+P`就可以打开`Package Control`了，输入关键字`Install Package` + `回车`，会进入插件候选安装界面，输入你要安装的插件名称，如`Emmet`，找到后，回车安装。
-2、插件的卸载：
-打开`Package Control`，输入关键字`Remove Package`+`回车`，会进入插件候选删除界面，输入你要卸载的插件名称，如`Emmet`，找到后，回车卸载。
 
 ###四、Preferences.sublime文件的详细配置
 接下来就是>>>菜单栏`Preferences>Setting User`打开`Preferences.sublime`配置文件，去搜索了下，具体配置如下:

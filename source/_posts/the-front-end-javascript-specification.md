@@ -4,7 +4,7 @@ tags:
   - JavaScript
   - 规范
   - 前端
-categories: Development
+categories: Dev
 ---
 
 ##类型
