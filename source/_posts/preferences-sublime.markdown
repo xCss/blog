@@ -26,6 +26,20 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 ```
 重启软件即可。
 
+**推荐插件**:  
+1. [Package Control](https://sublime.wbond.net/installation)
+2. [Git](https://github.com/kemayo/sublime-text-git)
+3. [GitGutter](https://github.com/jisaacks/GitGutter)
+4. [Emmet](http://emmet.io/)
+5. [AllAutoComplete](https://github.com/alienhard/SublimeAllAutocomplete)
+6. [ColorPicker](http://weslly.github.io/ColorPicker/)
+7. [MarkdownPreview](https://github.com/revolunet/sublimetext-markdown-preview)
+8. [DocBlockr](https://github.com/spadgos/sublime-jsdocs)
+9. [SublimeCodeIntel](https://github.com/SublimeCodeIntel/SublimeCodeIntel)
+10. [BracketHighlighter](https://github.com/facelessuser/BracketHighlighter)
+11. [SideBarFolders](https://github.com/titoBouzout/SideBarFolders)
+12. [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
+
 ###三、插件的安装与卸载
 1、插件的安装：
 重启软件后，快捷键`Ctrl+Shift+P`就可以打开`Package Control`了，输入关键字`Install Package` + `回车`，会进入插件候选安装界面，输入你要安装的插件名称，如`Emmet`，找到后，回车安装。
