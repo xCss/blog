@@ -4,6 +4,7 @@ tags:
  - Sublime Text
  - 编辑器
  - 配置
+ - 插件
 categories: 编辑器
 ---
 ![SublimeText](http://7xilig.com1.z0.glb.clouddn.com/iosublime.png)
