@@ -50,6 +50,8 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 11. [SideBarFolders](https://github.com/titoBouzout/SideBarFolders)
 12. [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
 
+####4. 推荐字体:
+>[YaHei.Consolas](http://7xilig.com1.z0.glb.clouddn.com/YaHei.Consolas.1.11b.rar)
 
 ###四、Preferences.sublime文件的详细配置
 接下来就是>>>菜单栏`Preferences>Setting User`打开`Preferences.sublime`配置文件，去搜索了下，具体配置如下:
