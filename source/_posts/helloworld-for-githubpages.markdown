@@ -159,9 +159,5 @@ title: 我的Blog
 
 (完)
 
-************************************
->本文参考网上多篇帖子,欢迎转载.
-本文链接：[[http://ioliu.cn/helloworld-for-githubpages](http://ioliu.cn/helloworld-for-githubpages)]  
-特别感谢：[阮一峰老师](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html "阮一峰：搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门")     
 
-************************************
+> 特别感谢：[阮一峰老师](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html "阮一峰：搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门")     

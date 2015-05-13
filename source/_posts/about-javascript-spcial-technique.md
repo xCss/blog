@@ -176,10 +176,7 @@ JavaScript 具备自动插入分号的能力，但是自动插入分号并不是
 因此，最好的办法是在自己的js文件的最开始防御性地插入`;`，这样在合并js文件的时候就不会出问题了。  
 
 
-*************************  
+
 >本文转载自博客园,原文略有删减,侵权即删.
-本文链接：[[http://ioliu.cn/about-javascript-spcial-technique](http://ioliu.cn/about-javascript-spcial-technique/)]
 原文链接：[你可能不知道的一些JavaScript 奇技淫巧](http://www.cnblogs.com/dson/p/4415278.html) 
 原文作者：[FirstLovt](http://www.cnblogs.com/dson/) 
-
-*************************  

@@ -23,9 +23,5 @@ Brackets 的特点是简约、优雅、快捷！它没有很多的视图或者�
 
 好了，就这么多，I wish you good mood every day！ 
 
-*************************  
->本文为原创,欢迎转载,但请保留出处.
-本文链接：[[http://ioliu.cn/brackets](http://ioliu.cn/brackets/)]  
-Brackets官网：[[http://brackets.io](http://brackets.io)]  
 
-*************************  
+> Brackets官网：[[http://brackets.io](http://brackets.io)]  

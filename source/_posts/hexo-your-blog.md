@@ -67,11 +67,7 @@ hexo s
 ```
 启动服务后,打开浏览器输入 `http://localhost:4000` 回车,即可看到效果.
 
-*************************  
->本文参考网上多篇帖子,欢迎转载.
-本文链接：[[http://ioliu.cn/hexo-your-blog](http://ioliu.cn/hexo-your-blog/)]  
-Hexo官网：[[http://Hexo.io](http://hexo.io)]  
 
-*************************  
+> Hexo官网：[[http://Hexo.io](http://hexo.io)]  
 
 

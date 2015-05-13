@@ -1039,10 +1039,7 @@ var wait = function(dtd){
 2. 前端构建工具，可以采用grunt或者gulp工具，可以实现html、css、js压缩、验证、测试，文件合并、watch和liveload等所有前端任务。建议企业级nodejs npm私服。
 3. 前端开发IDE： WebStorm( Idea )、Sublime为最佳 。项目组统一IDE。IDE统一配置很重要。
 
-*************************  
+
 >本文转载自[破狼](http://greengerong.github.io/blog/2015/05/09/qian-duan-javascriptgui-fan/),原文略有修改,侵权即删.
-本文链接：[[http://ioliu.cn/the-front-end-javascript-specification](http://ioliu.cn/the-front-end-javascript-specification/)]
 原文链接：[前端javascript规范](http://greengerong.github.io/blog/2015/05/09/qian-duan-javascriptgui-fan/) 
 原文作者：[破狼](http://greengerong.github.io/) 
-
-*************************  
