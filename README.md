@@ -25,7 +25,7 @@ git clone https://github.com/ioliu/hexo.git
 cd hexo 
 npm install
 ```
-3.修改相关内容
+3.修改相关内容  
 4.本地测试
 ```
 hexo server  // or >hexo s
