@@ -9,11 +9,10 @@
 
 #其他
 ****************************************  
-<pre>
-  特别感谢 [@iissnan](https://github.com/iissnan/) 提供的主题,看第一眼就真的爱上了  
+> 特别感谢 [@iissnan](https://github.com/iissnan/) 提供的主题,看第一眼就真的爱上了  
   主题地址:[NexT](https://github.com/iissnan/hexo-theme-next)   
   我的博客:[http://ioliu.cn](http://ioliu.cn)
-</pre>
+
 ****************************************
 
 #Start Up
