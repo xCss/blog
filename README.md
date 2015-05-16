@@ -43,3 +43,4 @@ hexo generate // or >hexo g
 hexo deploy // 可以用hexo d -g 完成静态文件的生成和部署网站两个步骤
 ```
 
+##Just Do It
