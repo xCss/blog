@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+sitemap: http://ioliu/sitemap.xml
