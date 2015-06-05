@@ -112,7 +112,7 @@
       {% if not is_index and (post.prev or post.next) %}
 <hr/>
 <pre>本博客所有文章如无特别注明均为原创。
-复制或转载请以超链接形式注明转自<a href="?" target="_blank">云淡风轻</a>。
+复制或转载请以超链接形式注明转自<a href="/" target="_blank">云淡风轻</a>。
 原文地址：<a href="{{ url_for(post.path) }}">{{ config.url }}{{ url_for(post.path) }}</a></pre>
 <hr/>
         <div class="post-nav">
