@@ -11,7 +11,7 @@
 ****************************************  
 > 特别感谢 [@iissnan](https://github.com/iissnan/) 提供的主题,看第一眼就真的爱上了  
   主题地址:[NexT](https://github.com/iissnan/hexo-theme-next)   
-  我的博客:[http://ioliu.cn](http://ioliu.cn)
+  我的博客:[https://ioliu.cn](https://ioliu.cn)
 
 ****************************************
 
@@ -43,4 +43,4 @@ hexo generate // or >hexo g
 hexo deploy // 可以用hexo d -g 完成静态文件的生成和部署网站两个步骤
 ```
 
-##Just Do It
+##GOOD LUCKY
