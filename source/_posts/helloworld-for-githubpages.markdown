@@ -7,7 +7,7 @@ tags:
 categories: Dev
 ---
 
-![Jekyll](https://dn-ioliu.qbox.me/octojekyll.png )  
+![Jekyll](//dn-ioliu.qbox.me/octojekyll.png )  
 
 对于在Github上搭建免费Blog，我起先一无所知(好吧，知道你们会汗颜)。某一天，好友`诺兰德`说他为了应付面试(哈哈，请不要在意这些细节)，而加班加点的赶了一个Blog出来，看了他的Blog之后，我很好奇，就让他给我说说是怎么搭建的。他就直接丢了一个教程链接给我，研究了一天，然后就开始了我自己的Blog之旅。好吧，闲话有点多了，下面开始咱们的Blog之旅吧。 
 <!-- more -->
@@ -26,7 +26,7 @@ Git是一个开源的分布式版本控制系统，用以有效、高速的处�
 下载安装Git：[点击这里下载](http://git-scm.com/book/en/Getting-Started-Installing-Git "下载Git")   
 
 注：安装的时候第三步记得选中`Simple context menu(Registry based)`，才可以在右键菜单中生成`Git GUI here`和`Git Bash Here`选项，如下图所示
-![gitinstall](https://dn-ioliu.qbox.me/gitinstall.jpg)    
+![gitinstall](//dn-ioliu.qbox.me/gitinstall.jpg)    
 安装完成后，找个目录 `右键`\>`Git Bash Here`，打开Git的命令行工具。在里面输入`git --help`，就能看到命令的使用帮助了。    
 
 附：[Git的简易指南](http://rogerdudler.github.io/git-guide/index.zh.html "Git的简易指南")    

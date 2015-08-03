@@ -16,7 +16,7 @@ window.onload = function(){
 ```
 <!-- more -->
 在IE的低版本中会出现如图所示的问题：  
-![error](https://dn-ioliu.qbox.me/error-for-getElementsByClassName.jpg)  
+![error](//dn-ioliu.qbox.me/error-for-getElementsByClassName.jpg)  
 参考了网上的一些代码与视频，解决代码如下：  
 ```
 window.onload = function(){

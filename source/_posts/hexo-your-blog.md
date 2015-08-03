@@ -6,7 +6,7 @@ tags:
  - 免费博客
 categories: Dev
 ---
-![hexo](http://7xilig.com1.z0.glb.clouddn.com/iohexo.io.png)  
+![hexo](//dn-ioliu.qbox.me/iohexo.io.png)  
 
 今天把博客移到了`Hexo`,感觉蛮不错的 ^_^ .
 <!-- more -->
