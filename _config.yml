@@ -99,4 +99,4 @@ feed:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/niineo/niineo.github.com.git 
+  repo: https://github.com/noover/noover.github.com.git 
