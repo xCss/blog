@@ -78,7 +78,7 @@ sitemap:
 
 # 社交链接，将在侧栏中显示
 social:
-  GitHub: https://github.com/niineo
+  GitHub: https://github.com/coolyy
   Weibo: http://weibo.com/1842336184 
   Email: mailto:yy.liu@foxmail.com 
 
@@ -99,4 +99,4 @@ feed:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/noover/noover.github.com.git 
+  repo: https://github.com/coolyy/coolyy.github.com.git 
