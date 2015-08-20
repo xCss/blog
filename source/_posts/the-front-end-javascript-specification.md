@@ -7,7 +7,7 @@ tags:
 categories: Dev
 ---
 
-##类型
+## 类型
 **原始值**:相当于传值(JavaScript对象都提供了字面量)，使用字面量创建对象。  
   - `string`
   - `number`
@@ -34,7 +34,7 @@ bar[0] = 9;
 console.log(foo[0], bar[0]); // => 9, 9
 ```
 
-##对象
+## 对象
 1. 使用`字面值`创建对象  
 ```
 // bad
@@ -60,7 +60,7 @@ var superman = {
 };
 ```
 
-##数组
+## 数组
 1. 使用`字面值`创建数组  
 ```
 // bad
@@ -101,7 +101,7 @@ function trigger() {
 }
 ```
 
-##字符串
+## 字符串
 1. 对字符串使用单引号 `''`(因为大多时候我们的字符串。特别html会出现`"`)
 ```
 // bad
@@ -175,7 +175,7 @@ function inbox(messages) {
   return '<ul><li>' + items.join('</li><li>') + '</li></ul>';
 }
 ```
-##函数
+## 函数
 1. 函数表达式:
 ```
 // 匿名函数表达式
@@ -222,7 +222,7 @@ function yup(name, options, args) {
   // ...stuff...
 }
 ```
-##属性
+## 属性
 1. 当使用变量和特殊非法变量名时，访问属性时可以使用中括号(`.` 优先).
 ```
 var luke = {
@@ -236,7 +236,7 @@ function getProp(prop) {
 
 var isJedi = getProp('jedi');
 ```
-##变量
+## 变量
 1. 总是使用 `var` 来声明变量，如果不这么做将导致产生全局变量，我们要避免污染全局命名空间。
 ```
 // bad
@@ -333,7 +333,7 @@ function() {
   return true;
 }
 ```
-##条件表达式和等号
+## 条件表达式和等号
 1. 合理使用 `===` 和 `!==` 以及 `==` 和 `!=`.
 2. 合理使用表达式逻辑操作运算.
 3. 条件表达式的强制类型转换遵循以下规则：
@@ -373,7 +373,7 @@ if (collection.length) {
 ```
 5. 阅读 [Truth Equality and JavaScript](http://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/#more-2108) 了解更多
 
-##块
+## 块
 1. 给所有多行的块使用大括号
 ```
 // bad
@@ -396,7 +396,7 @@ function() {
   return false;
 }
 ```
-##注释
+## 注释
 1. 使用 `/** ... */` 进行多行注释，包括描述，指定类型以及参数值和返回值
 ```
 // bad
@@ -476,7 +476,7 @@ function Calculator() {
 ```
 4. 满足规范的文档，在需要文档的时候，可以尝试[jsdoc](http://usejsdoc.org/).
 
-##空白
+## 空白
 1. 缩进、格式化能帮助团队更快得定位修复代码BUG.
 2. 将tab设为4个空格
 ```
@@ -549,7 +549,7 @@ var leds = stage.selectAll('.led')
     .call(tron.led);
 ```
 
-##逗号
+## 逗号
 1. 不要将逗号放前面
 ```
 // bad
@@ -603,7 +603,7 @@ var heroes = [
 ];
 ```
 
-##分号
+## 分号
 1. 语句结束一定要加分号
 ```
 // bad
@@ -625,7 +625,7 @@ var heroes = [
 })();
 ```
 
-##类型转换
+## 类型转换
 1. 在语句的开始执行类型转换.
 2. 字符串:
 ```
@@ -687,7 +687,7 @@ var hasAge = Boolean(age);
 var hasAge = !!age;
 ```
 
-##命名约定
+## 命名约定
 1. 避免单个字符名，让你的变量名有描述意义。
 ```
 // bad
@@ -758,7 +758,7 @@ function() {
 }
 ```
 
-##存取器
+## 存取器
 1. 属性的存取器函数不是必需的
 2. 如果你确实有存取器函数的话使用`getVal()` 和 `setVal(‘hello’)`,`java getter、setter风格`或者`jQuery风格`
 3. 如果属性是布尔值，使用`isVal()` 或 `hasVal()`
@@ -789,7 +789,7 @@ Jedi.prototype.get = function(key) {
   return this[key];
 };
 ```
-##构造器
+## 构造器
 1. 给对象原型分配方法，而不是用一个新的对象覆盖原型，覆盖原型会使继承出现问题。
 ```
 function Jedi() {
@@ -864,7 +864,7 @@ Jedi.prototype.toString = function toString() {
 };
 ```
 
-##事件
+## 事件
 1. 当给事件附加数据时，传入一个哈希而不是原始值，这可以让后面的贡献者加入更多数据到事件数据里而不用找出并更新那个事件的事件处理器
 ```
 // bad
@@ -887,7 +887,7 @@ $(this).on('listingUpdated', function(e, data) {
 });
 ```
 
-##模块
+## 模块
 1. 这个文件应该以驼峰命名，并在同名文件夹下，同时导出的时候名字一致
 2. 对于公开API库可以考虑加入一个名为noConflict()的方法来设置导出的模块为之前的版本并返回它
 3. 总是在模块顶部声明 `'use strict';`，引入[JSHint规范](http://jshint.com/)
@@ -912,7 +912,7 @@ $(this).on('listingUpdated', function(e, data) {
 })(this);
 ```
 
-##jQuery
+## jQuery
 1. 对于jQuery对象以`$`开头，以和原生DOM节点区分。
 ```
 // bad
@@ -1017,11 +1017,11 @@ var wait = function(dtd){
 ```
 9. HTML中Style、以及JavaScript中style移到CSS中class，在HTML、JavaScript中引入class，而不是直接style。
 
-##ECMAScript 5兼容性
+## ECMAScript 5兼容性
 尽量采用ES5方法，特别数组`map`、`filter`、`forEach`方法简化日常开发。在老式IE浏览器中引入`ES5-shim`。或者也可以考虑引入`underscore`、`lodash` 常用辅助库. 
 - 参考[Kangax](https://twitter.com/kangax/)的 [ES5 compatibility table](http://kangax.github.com/es5-compat-table/)
 
-##HTML、CSS、JavaScript分离
+## HTML、CSS、JavaScript分离
 1. 页面DOM结构使用HTML，样式则采用CSS，动态DOM操作JavaScript。不要混用在HTML中
 分离在不同类型文件，文件link。
 2. HTML、CSS、JavaScript变量名都需要有业务价值。CSS以中划线分割的全小写命名，JavaScript则首字母小写的驼峰命名。
@@ -1030,11 +1030,11 @@ var wait = function(dtd){
 5. 对于内部大部分企业管理系统，可以尝试采用前端 MVC框架组织代码。如Angular、React + flux架构、Knockout等。
 6. 对于兼容性可用[Modernizr](http://modernizr.com/)规范库辅助。
 
-##使用jsHint
+## 使用jsHint
 1. 前端项目中推荐引入 [jshint](http://jshint.com/)插件来规范项目编码规范。以及一套完善的IDE配置。
 2. 注意：jshint需要引入nodejs 工具grunt或gulp插件，建议企业级nodejs npm私服。
 
-##前端工具
+## 前端工具
 1. 前端第三方JavaScript包管理工具bower(`bower install jQuery`)，bower可以实现第三方库的依赖解析、下载、升级管理等。建议建立企业级bower私服。
 2. 前端构建工具，可以采用grunt或者gulp工具，可以实现html、css、js压缩、验证、测试，文件合并、watch和liveload等所有前端任务。建议企业级nodejs npm私服。
 3. 前端开发IDE： WebStorm( Idea )、Sublime为最佳 。项目组统一IDE。IDE统一配置很重要。

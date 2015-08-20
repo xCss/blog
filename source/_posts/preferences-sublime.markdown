@@ -11,10 +11,10 @@ categories: 编辑器
 
 最近迷上了一款文本编辑器叫`Sublime Text`，[官网](http://www.sublimetext.com/ "Sublime Text 官网")，给人的第一感觉是轻，而且里面的各种自定义配置用起来真的是如鱼得水。写这篇文章主要是防止以后到处寻找而做个备份。
 <!-- more -->
-###一、`Sublime Text`的下载安装
+### 一、`Sublime Text`的下载安装
 进入`Sublime Text`的[官网](http://www.sublimetext.com/ "Sublime Text 官网")，下载`Sublime Text`，有2和3版本，请根据自己爱好进行下载安装。
 
-###二、`Package Control`的安装
+### 二、`Package Control`的安装
 首先打开`Console`>>>快捷键：`Ctrl+Esc下面的那个键`，输入下面的代码，然后回车(请注意软件自身的版本)
 如果是`Sublime Text3`，代码如下：
 ```
@@ -28,15 +28,15 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 重启软件即可。
 
 
-###三、插件的安装与卸载
+### 三、插件的安装与卸载
 
-####1. 插件的安装：
+#### 1. 插件的安装：
 重启软件后，快捷键`Ctrl+Shift+P`就可以打开`Package Control`了，输入关键字`Install Package` + `回车`，会进入插件候选安装界面，输入你要安装的插件名称，如`Emmet`，找到后，回车安装。
 
-####2. 插件的卸载：
+#### 2. 插件的卸载：
 打开`Package Control`，输入关键字`Remove Package`+`回车`，会进入插件候选删除界面，输入你要卸载的插件名称，如`Emmet`，找到后，回车卸载。
 
-####3. 推荐插件:  
+#### 3. 推荐插件:  
 1. [Package Control](https://sublime.wbond.net/installation)
 2. [Git](https://github.com/kemayo/sublime-text-git)
 3. [GitGutter](https://github.com/jisaacks/GitGutter)
@@ -50,14 +50,14 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 11. [SideBarFolders](https://github.com/titoBouzout/SideBarFolders)
 12. [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
 
-####4. 推荐字体:
+#### 4. 推荐字体:
 >[YaHei.Consolas](http://7xilig.com1.z0.glb.clouddn.com/YaHei.Consolas.1.11b.rar)   
 
-####5. 推荐主题
+#### 5. 推荐主题
 >Centurion   
 
 
-###四、Preferences.sublime文件的详细配置
+### 四、Preferences.sublime文件的详细配置
 接下来就是>>>菜单栏`Preferences>Setting User`打开`Preferences.sublime`配置文件，去搜索了下，具体配置如下:
 ```
 {

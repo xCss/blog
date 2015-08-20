@@ -11,7 +11,7 @@ categories: Dev
 
 对于在Github上搭建免费Blog，我起先一无所知(好吧，知道你们会汗颜)。某一天，好友`诺兰德`说他为了应付面试(哈哈，请不要在意这些细节)，而加班加点的赶了一个Blog出来，看了他的Blog之后，我很好奇，就让他给我说说是怎么搭建的。他就直接丢了一个教程链接给我，研究了一天，然后就开始了我自己的Blog之旅。好吧，闲话有点多了，下面开始咱们的Blog之旅吧。 
 <!-- more -->
-###一、Github和Jekyll是什么？
+### 一、Github和Jekyll是什么？
 [Github](http://github.com "Github"):是一个具有版本管理功能的代码仓库，每个项目都有一个主页，列出项目的源文件。  
 
 [Github Pages](https://pages.github.com/ "Github Pages"):对于一个新手来说，看到一大堆源码，只会让人头晕脑涨，不知何处入手。他希望看到的是，一个简明易懂的网页，说明每一步应该怎么做。因此，github就设计了Pages功能，允许用户自定义项目首页，用来替代默认的源码列表。所以，`github Pages可以被认为是用户编写的、托管在github上的静态网页`。github提供模板，允许站内生成网页，但也允许用户自己编写网页，然后上传。有意思的是，这种上传并不是单纯的上传，而是会经过Jekyll程序的再处理。  
@@ -20,7 +20,7 @@ categories: Dev
 
 [Jekyll](http://jekyllrb.com/ "Jekyll"):一个静态站点生成器，它会根据网页源码生成静态文件。它提供了模板、变量、插件等功能，所以实际上可以用来编写整个网站。  
 
-###二、Git工具的安装和简单使用
+### 二、Git工具的安装和简单使用
 Git是一个开源的分布式版本控制系统，用以有效、高速的处理从很小到非常大的项目版本管理。   
 
 下载安装Git：[点击这里下载](http://git-scm.com/book/en/Getting-Started-Installing-Git "下载Git")   
@@ -31,9 +31,9 @@ Git是一个开源的分布式版本控制系统，用以有效、高速的处�
 
 附：[Git的简易指南](http://rogerdudler.github.io/git-guide/index.zh.html "Git的简易指南")    
 
-###三、搭建博客
+### 三、搭建博客
 
-####1.新建项目 
+#### 1.新建项目 
 在你的电脑上，新建一个文件夹，作为博客的根目录，名字任取，假设我们取名为`demo`：
 > $ mkdir demo
 
@@ -44,7 +44,7 @@ Git是一个开源的分布式版本控制系统，用以有效、高速的处�
 然后创建一个没有父节点的分支`gh-pages`。因为github规定，只有该分支中的页面，才会生成网页文件：
 > $ git checkout --orphan gh-pages
 
-####2.新建配置文件
+#### 2.新建配置文件
 在`demo`文件夹中新建一个名字为`_config.yml`的文本文件。它是jekyll的配置文件(具体配置请参考[官方配置](http://jekyllrb.com/docs/configuration/ "官方配置"))。我们在其中写入以下内容，`注意冒号后面需要加空格`：
 > baseurl: /demo
 
@@ -52,7 +52,7 @@ Git是一个开源的分布式版本控制系统，用以有效、高速的处�
 > /demo    
 > &nbsp;&nbsp;|--_config.yml    
 
-####3.新建模板文件
+#### 3.新建模板文件
 在博客根目录下新建一个文件夹，名字为`_layouts`，用于存放模板文件：
 > $ mkdir _layouts
 
@@ -78,7 +78,7 @@ Jekyll使用[Liquid模板语言](http://github.com/shopify/liquid/wiki/liquid-fo
 > &nbsp;&nbsp;|--_layouts  
 > &nbsp;&nbsp;|&nbsp;&nbsp;|--default.html   
 
-####4.新建文章
+#### 4.新建文章
 回到`demo`文件夹，新建一个文件夹，名字为`_posts`，用于存放博客文章：
 > $ mkdir _posts
 
@@ -110,7 +110,7 @@ title: 我的第一篇文章
 > &nbsp;&nbsp;|--_posts  
 > &nbsp;&nbsp;|&nbsp;&nbsp;|--2013-12-12-hello-world.html  
 
-####5.新建首页
+#### 5.新建首页
 回到`demo`文件夹，新建一个文件叫`index.html`并填入以下内容： 
 ```
 ---
@@ -137,7 +137,7 @@ title: 我的Blog
 > &nbsp;&nbsp;|&nbsp;&nbsp;|--2013-12-12-hello-world.html  
 > &nbsp;&nbsp;|--index.html    
 
-####6.发布博客
+#### 6.发布博客
 先将所有内容加入到本地git库`注：当前目录为demo`：
 > $ git add .   
 > $ git commit -m "first commit"  
@@ -148,7 +148,7 @@ title: 我的Blog
 
 上传成功之后，等10分钟左右，访问 `http://username.github.com/demo/` 就可以看到博客已经生成了（将username换成你的用户名）。
 
-####7.绑定域名
+#### 7.绑定域名
 如果你不想用`http://username.github.com/demo/`这个域名，可以换成自己的域名。
 
 具体方法是在repo的根目录下面，新建一个名为`CNAME`的文本文件，里面写入你要绑定的域名，比如example.com或者xxx.example.com。
