@@ -5,9 +5,9 @@
   <span class="with-love">
     <i class="icon-heart"></i>
   </span>
-  <span class="author"><a href="https://github.com/{{ config.author }}" target="_blank">{{ config.author }}</a></span>
+  <span class="author"><a class="theme-link" href="https://github.com/{{ config.author }}" target="_blank">{{ config.author }}</a></span>
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="http://www.miitbeian.gov.cn/" target="_blank">{{ config.beian }}</a>
+  <a href="http://www.miitbeian.gov.cn/" class="theme-link" target="_blank">{{ config.beian }}</a>
 </div>
 
 <div class="powered-by">
