@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
-sitemap: //ioliu/sitemap.xml
+sitemap: https://ioliu.cn/sitemap.xml
