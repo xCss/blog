@@ -40,6 +40,7 @@ window.onload = function(){
 }
 ``` 
 
-> [getElementsByClassName](https://developer.mozilla.org/en-US/docs/Web/API/document/getElementsByTagName)
-
+> 相关资料:
+  [getElementsByTagName](https://developer.mozilla.org/en-US/docs/Web/API/document/getElementsByTagName)
+  
 
