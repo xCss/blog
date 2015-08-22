@@ -1,4 +1,4 @@
-title: "解决 getElementsByClassName 在IE中的兼容性问题"
+title: "解决 ByClassName 在IE中的兼容性问题"
 date: 2014-05-22 14:19:18
 tags: 
   - JavaScript
@@ -39,5 +39,7 @@ window.onload = function(){
     alert(checkInput.length);
 }
 ``` 
+
+> [getElementsByClassName](https://developer.mozilla.org/en-US/docs/Web/API/document/getElementsByTagName)
 
 
