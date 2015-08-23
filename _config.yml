@@ -6,7 +6,7 @@
 title: 云淡风轻
 subtitle: 一个安静的角落
 description: 隐约雷鸣，阴霾天空，但盼风雨来，能留你在此
-author: Coolyy
+author: colyy
 beian: 粤ICP备15050037号
 language: zh-Hans
 timezone:
@@ -79,7 +79,7 @@ sitemap:
 
 # 社交链接，将在侧栏中显示
 social:
-  GitHub: https://github.com/coolyy
+  GitHub: https://github.com/colyy
   Weibo: http://weibo.com/1842336184 
   Email: mailto:yy.liu@foxmail.com 
 
@@ -100,4 +100,4 @@ feed:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/coolyy/coolyy.github.com.git 
+  repo: https://github.com/colyy/colyy.github.com.git 
