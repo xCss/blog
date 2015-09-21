@@ -100,4 +100,4 @@ feed:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/colyy/colyy.github.com.git 
+  repo: https://github.com/kiend/kiend.github.com.git 
