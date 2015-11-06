@@ -6,7 +6,7 @@
 title: 云淡风轻
 subtitle: 一个安静的角落
 description: 隐约雷鸣，阴霾天空，但盼风雨来，能留你在此
-author: Tion.X
+author: Heroy
 beian: 粤ICP备15050037号
 language: zh-Hans
 timezone:
@@ -16,7 +16,7 @@ since: 2013
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://ioliu.cn
 root: /
-permalink: :title/
+permalink: :year/:title/
 permalink_defaults:
 
 # Directory
@@ -82,6 +82,7 @@ social:
   GitHub: https://github.com/tionx
   Weibo: http://weibo.com/1842336184 
   Email: mailto:yy.liu@foxmail.com 
+  Eooo: http://eooo.sinaapp.com
 
 # 设置站点的 Creative commons协议 http://creativecommons.org/
 # 可选的值有：by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
@@ -100,4 +101,5 @@ feed:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/tionx/tionx.github.com.git 
+  repo: https://github.com/tionx/notes.git 
+  branch: gh-pages
