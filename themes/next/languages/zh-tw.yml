@@ -9,6 +9,7 @@ menu:
   categories: 分類
   tags: 標籤
   about: 關於
+  search: 檢索
 
 
 sidebar:
@@ -16,8 +17,10 @@ sidebar:
   toc: 文章目錄
 
 post:
+  sticky: 置頂
   posted: 發表於
   in: 分類於
+  visitors: 閱讀次數
   read_more: 閱讀全文
   untitled: 未命名
   toc_empty: 此文章未包含目錄

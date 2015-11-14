@@ -1,13 +1,12 @@
-<div class="copyright">
+<div class="copyright" >
   {% set current = date(Date.now(), "YYYY") %}
-  &copy; &nbsp; <span class="serif">{% if theme.since and theme.since != current %} {{ theme.since }} - {% endif %}
-  {{ current }}</span>
+  &copy; {% if theme.since and theme.since != current %} {{ theme.since }} - {% endif %}
+  <span itemprop="copyrightYear">{{ current }}</span>
   <span class="with-love">
-    <i class="icon-heart"></i>
+    <i class="icon-next-heart fa fa-heart"></i>
   </span>
-  <span class="author"><a class="theme-link" href="https://github.com/{{ config.author }}" target="_blank">{{ config.author }}</a></span>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="http://www.miitbeian.gov.cn/" class="theme-link" target="_blank">{{ config.beian }}</a>
+  <span class="author" itemprop="copyrightHolder">{{ config.author }}&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="http://www.miitbeian.gov.cn/" class="theme-link" target="_blank">{{ config.beian }}</a></span>
 </div>
 
 <div class="powered-by">
@@ -15,10 +14,10 @@
 </div>
 
 <div class="theme-info">
-  {{ __('footer.theme') }} 
+  {{ __('footer.theme') }}
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    Next
-  </a>.
+    NexT.{{ theme.scheme }}
+  </a>
 </div>
 
 {% block footer %}{% endblock %}
