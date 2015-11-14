@@ -3,7 +3,7 @@ date: 2014-05-22 09:10:01
 tags:  
   - Brackets
   - 编辑器
-categories: 编辑器
+categories: 工具
 ---
 ![Brackets](//dn-ioliu.qbox.me/brackets.jpg)
 昨天上手了一款叫[Brackets](http://brackets.io/ "Brackets 官网")的Web前端编辑器(感谢[@buyibuyi](http://weibo.com/u/1914616062 "去他的微博") 的倾情推荐),初步用起来感觉还不错，在这里推荐一下，希望大家也喜欢 ^_^ 。  

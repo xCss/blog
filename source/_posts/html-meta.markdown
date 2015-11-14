@@ -4,10 +4,8 @@ tags:
   - meta
   - html
   - 前端
-categories: Web前端
+categories: 前端
 ---
-
-# &lt;meta&gt;元素 
 
 ## 概要  
 

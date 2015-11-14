@@ -4,7 +4,7 @@ tags:
  - Hexo
  - HelloWorld
  - 免费博客
-categories: Dev
+categories: Hexo
 ---
 ![hexo](//dn-ioliu.qbox.me/iohexo.io.png)  
 

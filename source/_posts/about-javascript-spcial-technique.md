@@ -5,10 +5,10 @@ tags:
  - JavaScript技巧 
  - 结构类型
  - 数组遍历 
-categories: Dev
+categories: 前端
 ---
 <blockquote class="blockquote-center">这里记录一下以前学习各种书籍和文章里边出现的JS的小技巧，分享给大家，也供自己查阅，同时感谢那些发现创造和分享这些技巧的前辈和大牛们。</blockquote>
-##遍历一个obj的属性到数组  
+## 遍历一个obj的属性到数组  
 ```
 function getAttr(obj){
      var a=[];
@@ -62,7 +62,7 @@ for(var i=arr.length,element;element=arr[—-i];){…}
 `<`/`+`等运算符会强制符号两边的表达式执行valueOf然后比较，所以如果两边是函数或者对象，而又重写了该对象的valueOf方法，就会自动执行两边的方法。如：
 ```
 var a={valueOf:function(){console.log("aaa");}},b={valueOf:function(){console.log("bbb");}};
-    a<b;//会输出:aaa;bbb;false
+    a < b;//会输出:aaa;bbb;false 
 ```
 
 ## 闭包 
@@ -70,7 +70,7 @@ var a={valueOf:function(){console.log("aaa");}},b={valueOf:function(){console.lo
  1. JS允许你引用在当前函数意外定义的变量  
  2. 即使外部函数已经返回，当前函数仍然可以引用在外部函数所定义的变量。这是因为JS的函数值包含里比调用它们时执行所需要的代码更多的信息  
  3. 闭包可以更新外部变量的值。这是因为闭包存储的是外部变量的引用而非值副本。如：
- 	```
+```
 function box(){
 	var val=undefined;
 	return {
@@ -82,7 +82,7 @@ var b=box();
 b.get();//“undefined”
 b.set(5);
 b.get();//5
-	```
+```
 这一点很重要，比如在函数的for循环体内返回闭包或者有闭包取for循环的计数器值，那么这个闭包取到的永远是for循环结束时i的最终值，因为闭包存储的是它的引用而非当时的值副本。
 
 ## 块级作用域  
@@ -172,7 +172,7 @@ JavaScript 具备自动插入分号的能力，但是自动插入分号并不是
 	  return;
 {};
  	 类似的还有：`throw语句`、带有显示标签的`break`或着`continue`语句、后置自增或自减运算符
- 3. ####分号不会作为分隔符在for循环空语句的头部被自动插入
+ 3. #### 分号不会作为分隔符在for循环空语句的头部被自动插入
 因此，最好的办法是在自己的js文件的最开始防御性地插入`;`，这样在合并js文件的时候就不会出问题了。  
 
 

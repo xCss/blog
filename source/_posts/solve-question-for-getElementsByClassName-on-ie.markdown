@@ -4,7 +4,7 @@ tags:
   - JavaScript
   - getElementsByClassName
   - IE兼容性
-categories: Dev
+categories: 前端
 ---
 
 最近遇到一个`document.getElementsByClassName`在IE中的兼容性问题，有兼容性问题的代码如下：

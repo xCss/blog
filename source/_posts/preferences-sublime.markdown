@@ -5,7 +5,7 @@ tags:
  - 编辑器
  - 配置
  - 插件
-categories: 编辑器
+categories: 工具
 ---
 ![SublimeText](//dn-ioliu.qbox.me/iosublime.png)
 
@@ -54,7 +54,8 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 >[YaHei.Consolas](http://7xilig.com1.z0.glb.clouddn.com/YaHei.Consolas.1.11b.rar)   
 
 #### 5. 推荐主题
->Centurion   
+>Centurion  
+>Afterglow 
 
 
 ### 四、Preferences.sublime文件的详细配置
@@ -64,8 +65,11 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
     //主题文件的位置
     "theme":"Centurion.sublime-theme",
     "color_scheme":"Packages/Color Scheme - Default/Monokai.tmTheme",
+    //"theme": "Afterglow-orange.sublime-theme",
+    //"color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme",
     //字体
     "font_face":"Consolas",
+    //"font_face": "YaHei Consolas Hybrid",
     //字体大小
     "font_size":11.0,
     "ignored_packages":
