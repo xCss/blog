@@ -18,11 +18,11 @@
         .done(function (results) {
           var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
 
-          if (results.length === 0) {
-            $visitors.find(COUNT_CONTAINER_REF).text(0);
-            return;
-          }
-
+          //if (results.length == 0) {
+          //  $visitors.find(COUNT_CONTAINER_REF).text(0);
+          //  return;
+          //}
+          $visitors.find(COUNT_CONTAINER_REF).text(0);
           for (var i = 0; i < results.length; i++) {
             var item = results[i];
             var url = item.get('url');
