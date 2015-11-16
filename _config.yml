@@ -101,5 +101,5 @@ feed:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/heroyy/notes.git 
-  branch: gh-pages
+  repo: https://github.com/heroyy/heroyy.github.com.git 
+  branch: master

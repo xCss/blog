@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------
 
 # Place your favicon.ico to /source directory.
-favicon: /favicon.ico
+favicon: favicon.ico
 
 # Set default keywords (Use a comma to separate)
 keywords: "ioliu.cn,一个安静的角落,云淡风轻,编程,学习,JavaScript技巧,简单生活"
@@ -27,10 +27,10 @@ since: 2013
 # Remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  categories: /categories
-  archives: /archives
-  tags: /tags
-  #commonweal: /404.html
+  categories: categories
+  archives: archives
+  tags: tags
+  #commonweal: 404.html
 
 
 # Enable/Disable menu icons.
@@ -72,6 +72,7 @@ social:
   GitHub: https://github.com/heroyy
   Weibo: http://weibo.com/1842336184 
   Email: mailto:yy.liu@foxmail.com
+  Eooo: http://eooo.sinaapp.com
 
 # Social Icons
 social_icons:
@@ -81,10 +82,11 @@ social_icons:
   Twitter: twitter
   Weibo: weibo
   Email: envelope
+  Eooo: globe
 
 
 # Sidebar Avatar
-avatar: /images/default_avatar.png
+avatar: images/default_avatar.png
 
 
 # TOC in the Sidebar
@@ -111,9 +113,9 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle icon.
-  display: post
+  #display: post
   #display: always
-  #display: hide
+  display: hide
   #display: remove
 
 
