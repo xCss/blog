@@ -101,5 +101,6 @@ feed:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/heroyy/heroyy.github.io.git 
+  repo: https://github.com/Herolib/notes.git 
   branch: gh-pages
+  message: 'chage username'
