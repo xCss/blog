@@ -14,8 +14,8 @@ since: 2013
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://ioliu.cn
-root: /
+#url: https://ioliu.cn
+root: /notes/
 permalink: :year/:title/
 permalink_defaults:
 
@@ -79,7 +79,7 @@ sitemap:
 
 # 社交链接，将在侧栏中显示
 social:
-  GitHub: https://github.com/tionx
+  GitHub: https://github.com/Roins
   Weibo: http://weibo.com/1842336184 
   Email: mailto:yy.liu@foxmail.com 
   Eooo: http://eooo.sinaapp.com
