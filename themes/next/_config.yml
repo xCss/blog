@@ -86,7 +86,7 @@ social_icons:
 
 
 # Sidebar Avatar
-avatar: images/default_avatar.png
+avatar: /notes/images/default_avatar.png
 
 
 # TOC in the Sidebar
