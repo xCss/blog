@@ -98,6 +98,11 @@ feed:
   path: atom.xml
   limit: 20
 
+
+powered: 
+  qiniu: //ioliu.cn/go/qiniu
+  aliyun: //ioliu.cn/go/aliyun
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
