@@ -10,9 +10,9 @@
 #其他
 ****************************************  
 > 特别感谢 [@iissnan](https://github.com/iissnan/) 提供的主题  
-  主题地址:[NexT](https://github.com/iissnan/hexo-theme-next)   
-  我的博客:[http://ioliu.cn](http://ioliu.cn) 
-  或者：[点击这里](http://eary.github.io/notes)
+  主题地址: [NexT](https://github.com/iissnan/hexo-theme-next)   
+  我的博客: [http://ioliu.cn](http://ioliu.cn) 
+  或者: [点击这里](http://eary.github.io/notes)
 
 ****************************************
 
