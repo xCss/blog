@@ -69,11 +69,12 @@ scheme: Pisces
 
 # Social links
 social:
-  GitHub: https://github.com/Roins
+  GitHub: https://github.com/eary
   Weibo: http://weibo.com/1842336184 
   Email: mailto:yy.liu@foxmail.com
   Eooo: http://eooo.sinaapp.com
   阿里云: //ioliu.cn/go/aliyun
+  七牛: //ioliu.cn/go/qiniu
 
 # Social Icons
 social_icons:
