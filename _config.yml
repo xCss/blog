@@ -83,7 +83,8 @@ social:
   Weibo: http://weibo.com/1842336184 
   Email: mailto:yy.liu@foxmail.com 
   Eooo: http://eooo.sinaapp.com
-  阿里云: //ioliu.cn/go/aliyun
+  阿里云: //ioliu.cn/go/aliyun 
+  七牛: //ioliu.cn/go/qiniu
 
 # 设置站点的 Creative commons协议 http://creativecommons.org/
 # 可选的值有：by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
@@ -99,9 +100,9 @@ feed:
   limit: 20
 
 
-powered: 
-  qiniu: //ioliu.cn/go/qiniu
-  aliyun: //ioliu.cn/go/aliyun
+# powered: 
+#   qiniu: //ioliu.cn/go/qiniu
+#   aliyun: //ioliu.cn/go/aliyun
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html

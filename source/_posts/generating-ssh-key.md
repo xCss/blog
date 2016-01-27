@@ -1,12 +1,12 @@
-title: "生成 SSH Key 免密码提交 Github"
+title: "生成 SSH Key 免密码提交 GitHub"
 date: 2015-12-13 10:19:18
 tags: 
-  - Github
+  - GitHub
   - "SSH Key"
   - "免密码"
-categories: Github
+categories: GitHub
 ---
-之前上传文件到 Github 的时候，一直都是用的账号密码登录，每次提交都弹个窗体出来，感觉烦死了。。。今天有空，就来捣鼓下 `SSH Key`。
+之前上传文件到 GitHub 的时候，一直都是用的账号密码登录，每次提交都弹个窗体出来，感觉烦死了。。。今天有空，就来捣鼓下 `SSH Key`。
 
 <!-- more -->
 
@@ -28,7 +28,7 @@ ls: cannot open directory /Users/you/.ssh: Permission denied
     > id_ed25519.pub 
     > id_rsa.pub 
 
-> 如果已经存在(如 `id_rsa` 和 `id_rsa.pub`)而且你想使用已经存在的密钥对直接连接 Github ，那么可以跳过 **Step2**，直接进入 **Step3** 
+> 如果已经存在(如 `id_rsa` 和 `id_rsa.pub`)而且你想使用已经存在的密钥对直接连接 GitHub ，那么可以跳过 **Step2**，直接进入 **Step3** 
 
 ### Step2. 生成 SSH Key 
 复制下面的代码(`记得请将email修改成自己的email地址`)： 
@@ -37,7 +37,7 @@ $ ssh-keygen -t rsa -b 4096 -C "your_name@example.com"
 Generating public/private rsa key pair.
 ```
 
-这里 Github 的建议是保持默认，所以只需要按 `Enter` 继续： 
+这里 GitHub 的建议是保持默认，所以只需要按 `Enter` 继续： 
 ```
 Enter file in which to save the key (/Users/you/.ssh/id_rsa): [Press Enter]
 ```
@@ -62,25 +62,25 @@ The key fingerprint is:
 01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db your_email@example.com
 ```
 
-### Step3. 添加 SSH Key 到 Github 
+### Step3. 添加 SSH Key 到 GitHub 
 先拷贝 `id_rsa.pub` 文件的内容，可以用编辑器打开然后复制，也可以用 git 命令复制： 
 ```
 $ clip < ~/.ssh/id_rsa.pub
 ```
 
-进入 Github [账户设置](https://github.com/settings)，点击左边 [SSH Key](https://github.com/settings/ssh) ，点击 `Add SSH key` ，粘贴刚刚复制的内容，然后保存。 
-输入 Github 账户的密码就能看到刚刚添加的 SSH Key 了。 
+进入 GitHub [账户设置](https://GitHub.com/settings)，点击左边 [SSH Key](https://GitHub.com/settings/ssh) ，点击 `Add SSH key` ，粘贴刚刚复制的内容，然后保存。 
+输入 GitHub 账户的密码就能看到刚刚添加的 SSH Key 了。 
 
 ### Step4. 测试是否添加成功 
 在 `Git Bush` 中输入下面的代码，然后回车 
 ```
-$ ssh -T git@github.com
+$ ssh -T git@GitHub.com
 # Attempts to ssh to GitHub
 ```
 
 会得到如下的指纹提示：键入`yes` 
 ```
-The authenticity of host 'github.com (207.97.227.239)' can't be established.
+The authenticity of host 'GitHub.com (207.97.227.239)' can't be established.
 RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
 Are you sure you want to continue connecting (yes/no)?
 ```
@@ -90,14 +90,14 @@ Are you sure you want to continue connecting (yes/no)?
 Hi username! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
-> 如果你看到的是 `access denied(拒绝访问)` ，可以[点击这里](https://help.github.com/articles/error-permission-denied-publickey) ，查看解决办法。  
+> 如果你看到的是 `access denied(拒绝访问)` ，可以[点击这里](https://help.GitHub.com/articles/error-permission-denied-publickey) ，查看解决办法。  
 
 然后将https替换成ssh重新下载下代码，就OK了~~~
 
 ***Good Luck***  
 
 ** 参考文档 **
-1. [Generating SSH keys](https://help.github.com/articles/generating-ssh-keys/) 
+1. [Generating SSH keys](https://help.GitHub.com/articles/generating-ssh-keys/) 
 
 
 -------------------------------
