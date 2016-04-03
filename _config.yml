@@ -15,7 +15,7 @@ since: 2013
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 #url: https://ioliu.cn
-root: /notes/
+root: /
 permalink: :year/:title/
 permalink_defaults:
 

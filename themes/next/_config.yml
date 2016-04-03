@@ -71,10 +71,10 @@ scheme: Pisces
 social:
   GitHub: https://github.com/eary
   Weibo: http://weibo.com/1842336184 
-  Email: mailto:yy.liu@foxmail.com
-  Eooo: http://eooo.sinaapp.com
-  阿里云: //ioliu.cn/go/aliyun
-  七牛: //ioliu.cn/go/qiniu
+  Email: mailto:mail@xone.me
+  壁纸: http://api.ioliu.cn
+  #阿里云: //ioliu.cn/go/aliyun
+  #七牛: //ioliu.cn/go/qiniu
 
 # Social Icons
 social_icons:
@@ -84,11 +84,11 @@ social_icons:
   Twitter: twitter
   Weibo: weibo
   Email: envelope
-  Eooo: globe
+  #壁纸: globe
 
 
 # Sidebar Avatar
-avatar: /notes/images/default_avatar.png
+avatar: /images/default_avatar.png
 
 
 # TOC in the Sidebar
