@@ -11,10 +11,10 @@ categories: 工具
 
 最近迷上了一款文本编辑器叫`Sublime Text`，[官网](http://www.sublimetext.com/ "Sublime Text 官网")，给人的第一感觉是轻，而且里面的各种自定义配置用起来真的是如鱼得水。写这篇文章主要是防止以后到处寻找而做个备份。
 <!-- more -->
-### 一、`Sublime Text`的下载安装
+### `Sublime Text`的下载安装
 进入`Sublime Text`的[官网](http://www.sublimetext.com/ "Sublime Text 官网")，下载`Sublime Text`，有2和3版本，请根据自己爱好进行下载安装。
 
-### 二、`Package Control`的安装
+### `Package Control`的安装
 首先打开`Console`>>>快捷键：`Ctrl+Esc下面的那个键`，输入下面的代码，然后回车(请注意软件自身的版本)
 如果是`Sublime Text3`，代码如下：
 ```
@@ -28,7 +28,7 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 重启软件即可。
 
 
-### 三、插件的安装与卸载
+### 插件的安装与卸载
 
 #### 1. 插件的安装：
 重启软件后，快捷键`Ctrl+Shift+P`就可以打开`Package Control`了，输入关键字`Install Package` + `回车`，会进入插件候选安装界面，输入你要安装的插件名称，如`Emmet`，找到后，回车安装。
@@ -51,14 +51,14 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 12. [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
 
 #### 4. 推荐字体:
->[YaHei.Consolas](http://7xilig.com1.z0.glb.clouddn.com/YaHei.Consolas.1.11b.rar)   
+>[YaHei.Consolas](https://dn-ioliu.qbox.me/YaHei.Consolas.1.11b.rar)   
 
 #### 5. 推荐主题
 >Centurion  
 >Afterglow 
 
 
-### 四、Preferences.sublime文件的详细配置
+### Preferences.sublime文件的详细配置
 接下来就是>>>菜单栏`Preferences>Setting User`打开`Preferences.sublime`配置文件，去搜索了下，具体配置如下:
 ```
 {
@@ -118,8 +118,30 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 >这里留下\*\*工具，请支持正版。[sublime.text.3.x64.patch.by.荒野无灯](http://pan.baidu.com/s/128SAL "百度网盘下载")，\*\*工具具体使用方法，请自行搜索。     
 
 
+
+
+> 3103 可用  
+
 ```
-//3083
+—– BEGIN LICENSE —–
+Ryan Clark
+Single User License
+EA7E-812479
+2158A7DE B690A7A3 8EC04710 006A5EEB
+34E77CA3 9C82C81F 0DB6371B 79704E6F
+93F36655 B031503A 03257CCC 01B20F60
+D304FA8D B1B4F0AF 8A76C7BA 0FA94D55
+56D46BCE 5237A341 CD837F30 4D60772D
+349B1179 A996F826 90CDB73C 24D41245
+FD032C30 AD5E7241 4EAA66ED 167D91FB
+55896B16 EA125C81 F550AF6B A6820916
+—— END LICENSE ——
+```
+
+
+> 3083 可用  
+
+```
 ----- BEGIN LICENSE -----
 Andrew Weber
 Single User License

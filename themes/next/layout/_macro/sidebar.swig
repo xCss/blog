@@ -39,19 +39,23 @@
             </a>
           </div>
 
-          <div class="site-state-item site-state-categories">
-            {% if theme.menu.categories %}<a href="{{ url_for(theme.menu.categories) }}">{% endif %}
-              <span class="site-state-item-count">{{ site.categories.length }}</span>
-              <span class="site-state-item-name">{{ __('state.categories') }}</span>
+          {% if site.categories.length > 0 %}
+            <div class="site-state-item site-state-categories">
+              {% if theme.menu.categories %}<a href="{{ url_for(theme.menu.categories) }}">{% endif %}
+                <span class="site-state-item-count">{{ site.categories.length }}</span>
+                <span class="site-state-item-name">{{ __('state.categories') }}</span>
               {% if theme.menu.categories %}</a>{% endif %}
-          </div>
+            </div>
+          {% endif %}
 
-          <div class="site-state-item site-state-tags">
-            {% if theme.menu.tags %}<a href="{{ url_for(theme.menu.tags) }}">{% endif %}
-              <span class="site-state-item-count">{{ site.tags.length }}</span>
-              <span class="site-state-item-name">{{ __('state.tags') }}</span>
+          {% if site.tags.length > 0 %}
+            <div class="site-state-item site-state-tags">
+              {% if theme.menu.tags %}<a href="{{ url_for(theme.menu.tags) }}">{% endif %}
+                <span class="site-state-item-count">{{ site.tags.length }}</span>
+                <span class="site-state-item-name">{{ __('state.tags') }}</span>
               {% if theme.menu.tags %}</a>{% endif %}
-          </div>
+            </div>
+          {% endif %}
 
         </nav>
 
@@ -68,10 +72,11 @@
           {% if theme.social %}
             {% for name, link in theme.social %}
               <span class="links-of-author-item">
-                <a href="{{ link }}" target="_blank">
+                <a href="{{ link }}" target="_blank" title="{{ name }}">
                   {% if theme.social_icons.enable %}
-                    <i class="fa fa-{{ theme.social_icons[name] || 'globe' }}"></i> {{ name }}
+                    <i class="fa fa-{{ theme.social_icons[name] || 'globe' }}"></i>
                   {% endif %}
+                  {{ name }}
                 </a>
               </span>
             {% endfor %}
@@ -87,24 +92,24 @@
           </div>
         {% endif %}
 
-        <div class="links-of-author motion-element">
-          {% if theme.links %}
-            <p class="site-author-name">{{ theme.links_title }}</p>
-            {% for name, link in theme.links %}
-              <span class="links-of-author-item">
-                <a href="{{ link }}" target="_blank">{{ name }}</a>
-              </span>
-            {% endfor %}
-          {% endif %}
-        </div>
+        {# Blogroll #}
+        {% if theme.links %}
+          <div class="links-of-blogroll motion-element">
+            <div class="links-of-blogroll-title">{{ theme.links_title }}</div>
+            <ul class="links-of-blogroll-list">
+              {% for name, link in theme.links %}
+                <li class="links-of-blogroll-item">
+                  <a href="{{ link }}" title="{{ name }}" target="_blank">{{ name }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
 
       </section>
 
       {% if display_toc %}
         <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc-indicator-top post-toc-indicator">
-            <i class="fa fa-angle-double-up"></i>
-          </div>
           <div class="post-toc">
             {% if page.toc_number === undefine %}
               {% set toc = toc(page.content, { "class": "nav", list_number: theme.toc.number }) %}
@@ -116,9 +121,6 @@
             {% else %}
               <div class="post-toc-content">{{ toc }}</div>
             {% endif %}
-          </div>
-          <div class="post-toc-indicator-bottom post-toc-indicator">
-            <i class="fa fa-angle-double-down"></i>
           </div>
         </section>
       {% endif %}

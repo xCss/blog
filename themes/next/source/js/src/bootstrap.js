@@ -4,16 +4,11 @@ $(document).ready(function () {
 
   $(document).trigger('bootstrap:before');
 
-  isMobile() && FastClick.attach(document.body);
+  NexT.utils.isMobile() && window.FastClick.attach(document.body);
 
-  $("#posts").find('img').lazyload({
-    placeholder: "/images/loading.gif",
-    effect: "fadeIn"
-  });
+  NexT.utils.lazyLoadPostsImages();
 
-  $('.back-to-top').on('click', function () {
-    $('body').velocity('scroll');
-  });
+  NexT.utils.registerBackToTop();
 
   $('.site-nav-toggle button').on('click', function () {
     var $siteNav = $('.site-nav');
@@ -34,16 +29,16 @@ $(document).ready(function () {
 
 
   // Define Motion Sequence.
-  motionIntegrator
-    .add(motionMiddleWares.logo)
-    .add(motionMiddleWares.menu)
-    .add(motionMiddleWares.postList)
-    .add(motionMiddleWares.sidebar);
+  NexT.motion.integrator
+    .add(NexT.motion.middleWares.logo)
+    .add(NexT.motion.middleWares.menu)
+    .add(NexT.motion.middleWares.postList)
+    .add(NexT.motion.middleWares.sidebar);
 
   $(document).trigger('motion:before');
 
   // Bootstrap Motion.
-  CONFIG.motion && motionIntegrator.bootstrap();
+  CONFIG.motion && NexT.motion.integrator.bootstrap();
 
   $(document).trigger('bootstrap:after');
 });
