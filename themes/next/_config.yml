@@ -25,7 +25,7 @@ since: 2013
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  home: /notes
+  home: /
   #categories: /categories
   #about: /about
   archives: /archives
@@ -124,7 +124,7 @@ social:
   GitHub: https://github.com/eary
   Weibo: http://weibo.com/1842336184 
   Email: mailto:mail@xone.me
-  缤纷壁纸: http://api.ioliu.cn
+  必应壁纸: http://api.ioliu.cn
 
 # Social Links Icons
 # Icon Mapping:

@@ -108,5 +108,5 @@ feed:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:eary/notes.git 
+  repo: git@github.com:eary/eary.github.com.git 
   branch: gh-pages
