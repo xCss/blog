@@ -109,4 +109,4 @@ feed:
 deploy:
   type: git
   repo: git@github.com:eary/eary.github.com.git 
-  branch: gh-pages
+  branch: master
