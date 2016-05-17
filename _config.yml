@@ -65,7 +65,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: icarus2
+theme: icarus
 duoshuo: 
     shortname: ioliu
 baidu_analytics: 2119376191e432c012a0713bcca8a8ea
