@@ -4,7 +4,7 @@ tags:
  - Hexo
  - HelloWorld
  - 免费博客
-categories: Hexo
+categories: 博客
 ---
 ![hexo](//dn-ioliu.qbox.me/iohexo.io.png)  
 
@@ -67,7 +67,17 @@ hexo s
 ```
 启动服务后,打开浏览器输入 `http://localhost:4000` 回车,即可看到效果.
 
+### 部署
+```
+hexo d
+//可以通过hexo d -g 命令完成生成和部署
+```
+如果出现错误，可能是没有安装`部署`插件，请执行下面的命令安装插件：
+```
+npm install hexo-deploy-git --save-dev
+```
 
 > Hexo官网：[[http://Hexo.io](http://hexo.io)]  
+[部署Hexo](https://hexo.io/zh-cn/docs/deployment.html) 
 
 

@@ -4,7 +4,7 @@ tags:
   - Jekyll
   - 免费博客
   - "GitHub Pages"
-categories: Jekyll
+categories: 博客
 ---
 
 ![Jekyll](//dn-ioliu.qbox.me/octojekyll.png )  
