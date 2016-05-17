@@ -4,7 +4,9 @@ tags:
   - JavaScript
   - getElementsByClassName
   - IE兼容性
-categories: 前端
+  - 前端
+categories: 学习笔记
+banner: https://dn-ioliu.qbox.me/js.jpg
 ---
 
 最近遇到一个`document.getElementsByClassName`在IE中的兼容性问题，有兼容性问题的代码如下：
@@ -15,9 +17,11 @@ window.onload = function(){
 }
 ```
 <!-- more -->
+
 在IE的低版本中会出现如图所示的问题：  
-![error](//dn-ioliu.qbox.me/error-for-getElementsByClassName.jpg)  
-参考了网上的一些代码与视频，解决代码如下：  
+![error](https://dn-ioliu.qbox.me/error-for-getElementsByClassName.jpg)  
+参考了网上的一些代码与视频，解决代码如下：    
+
 ```
 window.onload = function(){
     if(!document.getElementsByClassName){
@@ -38,7 +42,7 @@ window.onload = function(){
     var checkInput = document.getElementsByClassName("check");
     alert(checkInput.length);
 }
-``` 
+```
 
 > 相关资料:
   [getElementsByTagName](https://developer.mozilla.org/en-US/docs/Web/API/document/getElementsByTagName)

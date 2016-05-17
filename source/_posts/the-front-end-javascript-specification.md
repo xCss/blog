@@ -4,7 +4,8 @@ tags:
   - JavaScript
   - 规范
   - 前端
-categories: 前端
+categories: 学习笔记
+banner: https://dn-ioliu.qbox.me/js.jpg
 ---
 
 ## 类型

@@ -4,7 +4,8 @@ tags:
   - GitHub
   - "SSH Key"
   - "免密码"
-categories: GitHub
+categories: 学习笔记
+banner: https://dn-ioliu.qbox.me/linux.jpg
 ---
 之前上传文件到 GitHub 的时候，一直都是用的账号密码登录，每次提交都弹个窗体出来，感觉烦死了。。。今天有空，就来捣鼓下 `SSH Key`。
 

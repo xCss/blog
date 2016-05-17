@@ -3,9 +3,9 @@ date: 2014-05-22 09:10:01
 tags:  
   - Brackets
   - 编辑器
-categories: 工具
+categories: 应用软件
+banner: https://dn-ioliu.qbox.me/brackets.jpg
 ---
-![Brackets](//dn-ioliu.qbox.me/brackets.jpg)
 昨天上手了一款叫[Brackets](http://brackets.io/ "Brackets 官网")的Web前端编辑器(感谢[@buyibuyi](http://weibo.com/u/1914616062 "去他的微博") 的倾情推荐),初步用起来感觉还不错，在这里推荐一下，希望大家也喜欢 ^_^ 。  
 <!-- more -->
 Brackets 是一个免费、开源且跨平台的 HTML/CSS/JavaScript 前端 WEB 集成开发环境 (IDE工具)。该项目由 Adobe 创建和维护，根据MIT许可证发布，支持 Windows、Linux 以及 OS X 平台。  

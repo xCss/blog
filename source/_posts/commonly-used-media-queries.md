@@ -4,7 +4,8 @@ tags:
   - "Media Query"
   - "响应式"
   - "媒体查询"
-categories: 前端
+categories: 学习笔记
+banner: https://dn-ioliu.qbox.me/responsive.jpg
 ---
 
 

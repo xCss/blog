@@ -2,11 +2,10 @@ title: Hello World for Hexo
 date: 2015-05-06 10:21:08
 tags: 
  - Hexo
- - HelloWorld
  - 免费博客
-categories: 博客
+categories: 学习笔记
+banner: https://dn-ioliu.qbox.me/iohexo.io.png
 ---
-![hexo](//dn-ioliu.qbox.me/iohexo.io.png)  
 
 今天把博客移到了`Hexo`,感觉蛮不错的 ^_^ .
 <!-- more -->
