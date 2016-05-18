@@ -5,7 +5,7 @@ tags:
   - 免费博客
   - "GitHub Pages"
 categories: 学习笔记
-banner: https://dn-ioliu.qbox.me/octojekyll.png
+banner: https://dn-ioliu.qbox.me/github.jpg
 ---
 
 
