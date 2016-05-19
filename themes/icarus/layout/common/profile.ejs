@@ -10,14 +10,14 @@
             <a id="follow" target="_blank" href="<%= profile.follow %>"><%= __('profile.follow') %></a>
         </div>
         <div class="article-info profile-block">
-            <div class="article-info-block">
+            <a href="/archives" class="article-info-block" style="color:#6B6E73;">
                 <%= site.posts.length %>
                 <span><%= (site.posts.length > 1 ? __('profile.posts') : __('profile.post')) %></span>
-            </div>
-            <div class="article-info-block">
+            </a>
+            <a href="/tags" class="article-info-block"  style="color:#6B6E73;">
                 <%= tagCount %>
                 <span><%= (tagCount > 1 ? __('profile.tags') : __('profile.tag')) %></span>
-            </div>
+            </a>
         </div>
         <% if(theme.customize.social_links) { %>
         <div class="profile-block social-links">

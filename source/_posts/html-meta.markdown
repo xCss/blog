@@ -80,7 +80,8 @@ categories: 学习笔记
     7. <del>minimal-ui</del>：可以在页面加载时最小化上下状态栏。（已弃用）
     
 
-    !注意:很多人使用initial-scale=1到非响应式网站上，这会让网站以100%宽度渲染，用户需要手动移动页面或者缩放。如果和initial-scale=1同时使用user-scalable=no或maximum-scale=1，则用户将不能放大/缩小网页来看到全部的内容。
+>注意:很多人使用initial-scale=1到非响应式网站上，这会让网站以100%宽度渲染，用户需要手动移动页面或者缩放。
+ 如果和initial-scale=1同时使用user-scalable=no或maximum-scale=1，则用户将不能放大/缩小网页来看到全部的内容。
 
  - ****WebApp全屏模式**** : 伪装app，离线应用。  
 ```        
@@ -103,7 +104,7 @@ categories: 学习笔记
 ```
 <meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL">
 ```
-![img](http://sfault-image.b0.upaiyun.com/154/084/1540848150-548142a6d3188_articlex )
+![看图片顶部](https://sinaimg.daoapp.io/ww1.sinaimg.cn/large/006qRazegw1f40yqh6luyj306y0cd0t8.jpg) 
  - ****其他****  
     [参考文档](http://fex.baidu.com/blog/2014/10/html-head-tags )
 ```
