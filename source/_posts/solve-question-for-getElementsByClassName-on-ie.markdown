@@ -6,7 +6,7 @@ tags:
   - IE兼容性
   - 前端
 categories: 学习笔记
-banner: https://dn-ioliu.qbox.me/js.jpg
+banner: https://sinaimg.daoapp.io/ww4.sinaimg.cn/large/006qRazegw1f41ptt98crj30jg05kmx5.jpg
 ---
 
 最近遇到一个`document.getElementsByClassName`在IE中的兼容性问题，有兼容性问题的代码如下：

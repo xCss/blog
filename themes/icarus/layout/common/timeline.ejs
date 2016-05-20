@@ -15,6 +15,14 @@
         <span class="node"><i class="fa fa-<%= icon %>"></i></span>
         <h1 class="title"><%= title %></h1>
     </div>
+    <div class="timeline-row">
+        <span class="node"></span>
+        <div class="content">
+            <h1 itemprop="name">
+                目前共计 <%= page.posts.length %> 篇日志。 继续努力。
+            </h1>
+        </div>
+    </div>
     <% page.posts.each(function (post, i) { %>
         <div class="timeline-row">
             <span class="node"></span>
