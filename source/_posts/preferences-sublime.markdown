@@ -6,7 +6,7 @@ tags:
  - 配置
  - 插件
 categories: 应用软件
-banner: https://dn-ioliu.qbox.me/sublimetext.jpg
+banner: https://ws2.sinaimg.cn/large/0060lm7Tgw1f456evwn23j30jg05kglq.jpg
 ---
 
 

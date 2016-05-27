@@ -3,7 +3,7 @@ date: 2016-05-18 14:21:08
 tags: 
   - "MarkDown"
 categories: 学习笔记
-banner: https://dn-ioliu.qbox.me/markdown.jpg
+banner: https://ws4.sinaimg.cn/large/0060lm7Tgw1f456ew31f7j30jg05kdfu.jpg
 ---
 # Markdown
 A markdown example shows how to write a markdown file. This document integrates core syntax and extensions (GMF).

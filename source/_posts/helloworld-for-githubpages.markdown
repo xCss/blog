@@ -5,7 +5,7 @@ tags:
   - 免费博客
   - "GitHub Pages"
 categories: 学习笔记
-banner: https://dn-ioliu.qbox.me/github.jpg
+banner: https://ws2.sinaimg.cn/large/0060lm7Tgw1f47cyzrtboj30jg05k745.jpg
 ---
 
 
@@ -26,7 +26,7 @@ Git是一个开源的分布式版本控制系统，用以有效、高速的处�
 下载安装Git：[点击这里下载](http://git-scm.com/book/en/Getting-Started-Installing-Git "下载Git")   
 
 注：安装的时候第三步记得选中`Simple context menu(Registry based)`，才可以在右键菜单中生成`Git GUI here`和`Git Bash Here`选项，如下图所示
-![gitinstall](//dn-ioliu.qbox.me/gitinstall.jpg)    
+![gitinstall](https://ws3.sinaimg.cn/large/0060lm7Tgw1f47cyzizpyj30dz0atmyj.jpg)    
 安装完成后，找个目录 `右键`\>`Git Bash Here`，打开Git的命令行工具。在里面输入`git --help`，就能看到命令的使用帮助了。    
 
 附：[Git的简易指南](http://rogerdudler.github.io/git-guide/index.zh.html "Git的简易指南")    

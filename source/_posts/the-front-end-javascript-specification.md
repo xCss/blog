@@ -5,7 +5,7 @@ tags:
   - 规范
   - 前端
 categories: 学习笔记
-banner: https://sinaimg.daoapp.io/ww4.sinaimg.cn/large/006qRazegw1f41ptt98crj30jg05kmx5.jpg
+banner: https://ws4.sinaimg.cn/large/006qRazegw1f41ptt98crj30jg05kmx5.jpg
 ---
 
 ## 类型

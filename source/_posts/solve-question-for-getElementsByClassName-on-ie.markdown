@@ -6,7 +6,7 @@ tags:
   - IE兼容性
   - 前端
 categories: 学习笔记
-banner: https://sinaimg.daoapp.io/ww4.sinaimg.cn/large/006qRazegw1f41ptt98crj30jg05kmx5.jpg
+banner: https://ws4.sinaimg.cn/large/006qRazegw1f41ptt98crj30jg05kmx5.jpg
 ---
 
 最近遇到一个`document.getElementsByClassName`在IE中的兼容性问题，有兼容性问题的代码如下：
@@ -19,7 +19,7 @@ window.onload = function(){
 <!-- more -->
 
 在IE的低版本中会出现如图所示的问题：  
-![error](https://dn-ioliu.qbox.me/error-for-getElementsByClassName.jpg)  
+![error](https://ws3.sinaimg.cn/large/0060lm7Tgw1f4a25f9llsj30ha04s0tt.jpg)  
 参考了网上的一些代码与视频，解决代码如下：    
 
 ```

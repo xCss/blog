@@ -4,7 +4,7 @@ tags:
  - Hexo
  - 免费博客
 categories: 学习笔记
-banner: https://dn-ioliu.qbox.me/hexo.jpg
+banner: https://ws4.sinaimg.cn/large/0060lm7Tgw1f456ewdqd9j30jg05k74c.jpg
 ---
 
 今天把博客移到了`Hexo`,感觉蛮不错的 ^_^ .

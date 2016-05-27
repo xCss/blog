@@ -104,7 +104,7 @@ categories: 学习笔记
 ```
 <meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL">
 ```
-![看图片顶部](https://sinaimg.daoapp.io/ww1.sinaimg.cn/large/006qRazegw1f40yqh6luyj306y0cd0t8.jpg) 
+![看图片顶部](https://ws1.sinaimg.cn/large/006qRazegw1f40yqh6luyj306y0cd0t8.jpg) 
  - ****其他****  
     [参考文档](http://fex.baidu.com/blog/2014/10/html-head-tags )
 ```
