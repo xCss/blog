@@ -1,2 +1,2 @@
 User-agent: *
-sitemap: https://ioliu.cn/sitemap.xml
+sitemap: /sitemap.xml
