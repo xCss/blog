@@ -6,15 +6,17 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">{{ config.author }}</span>
+
+  {% if config.beian %}  |  <a rel="nofellow" target="_blank" href="http://www.miitbeian.gov.cn">{{ config.beian }}</a>{% endif %}
 </div>
 
 <div class="powered-by">
-  {{ __('footer.powered', '<a class="theme-link" href="https://hexo.io">Hexo</a>') }}
+  {{ __('footer.powered', '<a rel="nofellow" target="_blank" class="theme-link" href="https://hexo.io">Hexo</a>') }}
 </div>
 
 <div class="theme-info">
   {{ __('footer.theme') }} -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+  <a class="theme-link" rel="nofellow" target="_blank" href="https://github.com/iissnan/hexo-theme-next">
     NexT.{{ theme.scheme }}
   </a>
 </div>

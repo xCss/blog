@@ -5,10 +5,9 @@ tags:
   - 免费博客
   - "GitHub Pages"
 categories: 学习笔记
-banner: https://ws2.sinaimg.cn/large/0060lm7Tgw1f47cyzrtboj30jg05k745.jpg
 ---
 
-
+![](https://ws2.sinaimg.cn/large/0060lm7Tgw1f47cyzrtboj30jg05k745.jpg)
 对于在Github上搭建免费Blog，我起先一无所知(好吧，知道你们会汗颜)。某一天，好友`诺兰德`说他为了应付面试(哈哈，请不要在意这些细节)，而加班加点的赶了一个Blog出来，看了他的Blog之后，我很好奇，就让他给我说说是怎么搭建的。他就直接丢了一个教程链接给我，研究了一天，然后就开始了我自己的Blog之旅。好吧，闲话有点多了，下面开始咱们的Blog之旅吧。 
 <!-- more -->
 ### 一、Github和Jekyll是什么？

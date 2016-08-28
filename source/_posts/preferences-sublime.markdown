@@ -6,8 +6,8 @@ tags:
  - 配置
  - 插件
 categories: 应用软件
-banner: https://ws2.sinaimg.cn/large/0060lm7Tgw1f456evwn23j30jg05kglq.jpg
 ---
+![](https://ws2.sinaimg.cn/large/0060lm7Tgw1f456evwn23j30jg05kglq.jpg)
 
 
 最近迷上了一款文本编辑器叫`Sublime Text`，[官网](http://www.sublimetext.com/ "Sublime Text 官网")，给人的第一感觉是轻，而且里面的各种自定义配置用起来真的是如鱼得水。写这篇文章主要是防止以后到处寻找而做个备份。
@@ -115,9 +115,6 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 ```
 
 ^_^/，好了，完工，具体使用情况还是要依靠自己的喜好而来，这里的配置并不唯一，请不要在意这些细节~。
-
->这里留下\*\*工具，请支持正版。[sublime.text.3.x64.patch.by.荒野无灯](http://pan.baidu.com/s/128SAL "百度网盘下载")，\*\*工具具体使用方法，请自行搜索。     
-
 
 
 

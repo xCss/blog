@@ -5,8 +5,8 @@ tags:
   - "响应式"
   - "媒体查询"
 categories: 学习笔记
-banner: https://ws4.sinaimg.cn/large/0060lm7Tgw1f456ew2yobj30jg05kwee.jpg
 ---
+![](https://ws4.sinaimg.cn/large/0060lm7Tgw1f456ew2yobj30jg05kwee.jpg)
 
 
 

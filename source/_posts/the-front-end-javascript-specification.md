@@ -5,8 +5,9 @@ tags:
   - 规范
   - 前端
 categories: 学习笔记
-banner: https://ws4.sinaimg.cn/large/006qRazegw1f41ptt98crj30jg05kmx5.jpg
 ---
+
+![](https://ws4.sinaimg.cn/large/006qRazegw1f41ptt98crj30jg05kmx5.jpg)
 
 ## 类型
 **原始值**:相当于传值(JavaScript对象都提供了字面量)，使用字面量创建对象。  

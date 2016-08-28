@@ -3,8 +3,8 @@ date: 2016-05-18 14:21:08
 tags: 
   - "MarkDown"
 categories: 学习笔记
-banner: https://ws4.sinaimg.cn/large/0060lm7Tgw1f456ew31f7j30jg05kdfu.jpg
 ---
+![](https://ws4.sinaimg.cn/large/0060lm7Tgw1f456ew31f7j30jg05kdfu.jpg)
 # Markdown
 A markdown example shows how to write a markdown file. This document integrates core syntax and extensions (GMF).
 
@@ -345,13 +345,13 @@ Within a code block, ***ampersands (&)*** and angle **brackets (< and >)** are a
 
 Code:
 ```
-<div class="footer">
+<div class="thanclass">
     &copy; 2004 Foo Corporation
 </div>
 ```
 Preview:
 ***
-<div class="footer">
+<div class="thanclass">
     &copy; 2004 Foo Corporation
 </div>
 ***
@@ -410,15 +410,7 @@ Code:
     ---------------------------------------
     ___
 ```
-Preview:
-***
-* * *
-***
-*****
-- - -
----------------------------------------
-___
-***
+
 ### Table
 HTML Tag: `<table>`
 
@@ -687,11 +679,11 @@ GFM will autolink standard URLs.
 
 Code:
 ```
-https://github.com/eary
+https://github.com/dotos
 ```
 Preview:
 ***
-https://github.com/eary
+https://github.com/dotos
 ***
 
 ### Backslash Escapes
