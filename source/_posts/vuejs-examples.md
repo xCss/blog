@@ -160,6 +160,103 @@ var vm = new Vue({
 ```
 <iframe width="100%" height="300" src="//jsfiddle.net/LNing/jr2fsarp/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
+## Method Handler(方法处理器)
+```html
+<div id="app">
+  <button v-on:click="greet">Click Me</button>
+</div>
+```
+```js
+var vm = new Vue({
+  el: '#app',
+  data: {
+    name: 'Vue.js'
+  },
+  // define methods under the `methods` object
+  methods: {
+    greet: function (event) {
+      // `this` inside methods point to the Vue instance
+      alert('Hello ' + this.name + '!')
+      // `event` is the native DOM event
+      alert(event.target.tagName)
+    }
+  }
+})
+// you can invoke methods in JavaScript too
+//vm.greet() // alert -> 'Hello Vue.js!'
+```
+<iframe width="100%" height="300" src="//jsfiddle.net/LNing/0byww9p5/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+## Inline Statement Handler(内联语句处理器)
+```html
+<div id="app">
+  <button v-on:click="say('hi')">Say Hi</button>
+  <button v-on:click="say('what')">Say What</button>
+</div>
+```
+```js
+new Vue({
+  el: '#app',
+  methods: {
+    say: function (msg) {
+      alert(msg)
+    }
+  }
+})
+```
+<iframe width="100%" height="300" src="//jsfiddle.net/LNing/5jzd19kx/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+## Events & Keys Modifiers(事件&按键修饰符)
+> Events Modifiers
+
+```html
+<!-- the click event's propagation will be stopped -->
+<a v-on:click.stop="doThis"></a>
+<!-- the submit event will no longer reload the page -->
+<form v-on:submit.prevent="onSubmit"></form>
+<!-- modifiers can be chained -->
+<a v-on:click.stop.prevent="doThat">
+<!-- just the modifier -->
+<form v-on:submit.prevent></form>
+```
+> 1.0.16 新增的两个修饰符
+
+```html
+<!-- use capture mode when adding the event listener -->
+<div v-on:click.capture="doThis">...</div>
+<!-- only trigger handler if event.target is the element itself -->
+<!-- i.e. not from a child element -->
+<div v-on:click.self="doThat">...</div>
+```
+> Keys Modifiers
+
+```html
+<!-- only call vm.submit() when the keyCode is 13 -->
+<input v-on:keyup.13="submit">
+<!-- same as above -->
+<input v-on:keyup.enter="submit">
+<!-- also works for shorthand -->
+<input @keyup.enter="submit">
+```
+**全部的按键别名：**  
+- enter
+- tab
+- delete
+- esc
+- space
+- up
+- down
+- left
+- right  
+
+> ** 1.0.8+: ** 支持单字母按键别名
+  ** 1.0.17+: ** 支持自定义按键别名:
+
+```js
+// 可以使用 @keyup.f1
+Vue.directive('on').keyCodes.f1 = 112
+```
+
 > 未完，待续...
 
 [vue]:http://vuejs.org "Vue.js 官网"
