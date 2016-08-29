@@ -135,6 +135,31 @@ new Vue({
 ```
 <iframe width="100%" height="300" src="//jsfiddle.net/LNing/9L9jr9q2/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
+
+## Computed Properties(计算属性)
+```html
+<div id="app">
+  a={{ a }}, b={{ b }}
+</div>
+```
+
+```js
+var vm = new Vue({
+  el: '#app',
+  data: {
+    a: 1
+  },
+  computed: {
+    // a computed getter
+    b: function () {
+      // `this` points to the vm instance
+      return this.a + 1
+    }
+  }
+})
+```
+<iframe width="100%" height="300" src="//jsfiddle.net/LNing/jr2fsarp/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
 > 未完，待续...
 
 [vue]:http://vuejs.org "Vue.js 官网"
