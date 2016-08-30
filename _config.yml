@@ -108,5 +108,6 @@ feed:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:dotos/notes.git 
-  branch: master
+  repo: 
+    github: git@github.com:dotos/notes.git,master
+    coding: git@git.coding.net:msg/msg,coding-pages
