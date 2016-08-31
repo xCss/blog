@@ -30,7 +30,7 @@ new Vue({
   }
 });
 ```
-<iframe width="100%" height="200" src="//jsfiddle.net/LNing/1nkLex6d/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="200" src="//jsfiddle.net/LNing/1nkLex6d/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ## Two-way Binging(双向绑定)
 ```HTML
@@ -48,7 +48,7 @@ new Vue({
   }
 });
 ```
-<iframe width="100%" height="200" src="//jsfiddle.net/LNing/rwz3qw8L/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="200" src="//jsfiddle.net/LNing/rwz3qw8L/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ## Render a List(列表渲染)
 ```html
@@ -73,7 +73,7 @@ new Vue({
   }
 });
 ```
-<iframe width="100%" height="300" src="//jsfiddle.net/LNing/3hmnuhgm/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="200" src="//jsfiddle.net/LNing/3hmnuhgm/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ## Handle User Input(处理用户输入)
 ```html
@@ -95,7 +95,7 @@ new Vue({
   }
 });
 ```
-<iframe width="100%" height="300" src="//jsfiddle.net/LNing/n36u9sn5/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="200" src="//jsfiddle.net/LNing/n36u9sn5/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ## All Together Now(综合)
 ```html
@@ -133,7 +133,7 @@ new Vue({
   }
 })
 ```
-<iframe width="100%" height="300" src="//jsfiddle.net/LNing/9L9jr9q2/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="200" src="//jsfiddle.net/LNing/9L9jr9q2/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 
 ## Computed Properties(计算属性)
@@ -158,7 +158,7 @@ var vm = new Vue({
   }
 })
 ```
-<iframe width="100%" height="300" src="//jsfiddle.net/LNing/jr2fsarp/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="200" src="//jsfiddle.net/LNing/jr2fsarp/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ## Method Handler(方法处理器)
 ```html
@@ -185,7 +185,7 @@ var vm = new Vue({
 // you can invoke methods in JavaScript too
 //vm.greet() // alert -> 'Hello Vue.js!'
 ```
-<iframe width="100%" height="300" src="//jsfiddle.net/LNing/0byww9p5/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="200" src="//jsfiddle.net/LNing/0byww9p5/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ## Inline Statement Handler(内联语句处理器)
 ```html
@@ -204,7 +204,7 @@ new Vue({
   }
 })
 ```
-<iframe width="100%" height="300" src="//jsfiddle.net/LNing/5jzd19kx/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="200" src="//jsfiddle.net/LNing/5jzd19kx/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ## Events & Keys Modifiers(事件&按键修饰符)
 > Events Modifiers
@@ -257,7 +257,206 @@ new Vue({
 Vue.directive('on').keyCodes.f1 = 112
 ```
 
-> 未完，待续...
+## Form Input Bindings(表单控件绑定)
+### Text
+```html
+<div id="app">
+  <span>Message is: {{ message }}</span>
+  <br>
+  <input type="text" v-model="message" placeholder="edit me">
+</div>
+```
+```js
+new Vue({
+  el:'#app',
+  data:{
+    massage:''
+  }
+});
+```
+
+<iframe width="100%" height="200" src="//jsfiddle.net/LNing/xhmv8hn1/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+### Multiline text
+```html
+<div id="app">
+  <span>Multiline message is:</span>
+  <pre>{{ message }}</pre>
+  <br>
+  <textarea v-model="message" placeholder="add multiple lines"></textarea>
+</div>
+```
+```js
+new Vue({
+  el:'#app',
+  data:{
+    massage:''
+  }
+})
+```
+<iframe width="100%" height="200" src="//jsfiddle.net/LNing/d31pcdpx/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+### Checkbox
+> 单个 `Checkbox`
+
+```html
+<div id="app">
+  <input type="checkbox" id="checkbox" v-model="checked">
+  <label for="checkbox">{{ checked }}</label>
+</div>
+```
+```js
+new Vue({
+  el:'#app',
+  data:{
+    checked:false
+  }
+})
+```
+<iframe width="100%" height="100" src="//jsfiddle.net/LNing/55y8hxpq/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+> 多个 `CheckBox`
+
+```html
+<div id="app">
+  <input type="checkbox" id="jack" value="Jack" v-model="checkedNames">
+  <label for="jack">Jack</label>
+  <input type="checkbox" id="john" value="John" v-model="checkedNames">
+  <label for="john">John</label>
+  <input type="checkbox" id="mike" value="Mike" v-model="checkedNames">
+  <label for="mike">Mike</label>
+  <br>
+  <span>Checked names: {{ checkedNames | json }}</span>
+</div>
+```
+```js
+new Vue({
+  el: '#app',
+  data: {
+    checkedNames: []
+  }
+})
+```
+<iframe width="100%" height="150" src="//jsfiddle.net/LNing/aLdok6ye/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+### Radio
+```html
+<div id="app">
+  <input type="radio" id="one" value="One" v-model="picked">
+  <label for="one">One</label>
+  <br>
+  <input type="radio" id="two" value="Two" v-model="picked">
+  <label for="two">Two</label>
+  <br>
+  <span>Picked: {{ picked }}</span>
+</div>
+```
+```js
+new Vue({
+  el:'#app',
+  data:{
+    picked:''
+  }
+})
+```
+<iframe width="100%" height="200" src="//jsfiddle.net/LNing/nwa3s8z1/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+### Select 
+> 单选 
+
+```html
+<div id="app">
+  <select v-model="selected">
+    <option selected>A</option>
+    <option>B</option>
+    <option>C</option>
+  </select>
+  <span>Selected: {{ selected }}</span>
+</div>
+```
+```js
+new Vue({
+  el:'#app',
+  data:{
+    selected:''
+  }
+})
+```
+<iframe width="100%" height="100" src="//jsfiddle.net/LNing/5ntLu3fd/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+> 多选 (绑定到一个数组)
+
+```html
+<div id="app">
+  <select v-model="selected" multiple>
+    <option selected>A</option>
+    <option>B</option>
+    <option>C</option>
+  </select>
+  <br>
+  <span>Selected: {{ selected | json }}</span>
+</div>
+```
+```js
+new Vue({
+  el:'#app',
+  data:{
+    selected:[]
+  }
+})
+```
+<iframe width="100%" height="200" src="//jsfiddle.net/LNing/Lado4oL5/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+> 动态选项，用 `v-for` 渲染
+
+```html
+<div id="app">
+  <select v-model="selected">
+    <option v-for="option in options" v-bind:value="option.value">
+      {{ option.text }}
+    </option>
+  </select>
+  <span>Selected: {{ selected }}</span>
+</div>
+```
+```js
+new Vue({
+  el: '#app',
+  data: {
+    selected: 'A',
+    options: [
+      { text: 'One', value: 'A' },
+      { text: 'Two', value: 'B' },
+      { text: 'Three', value: 'C' }
+    ]
+  }
+})
+```
+<iframe width="100%" height="100" src="//jsfiddle.net/LNing/pfrnd6nm/3/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+### Debounce
+> `debounce` 设置一个最小的延时，在每次敲击之后延时同步输入框的值与数据。如果每次更新都要进行高耗操作（例如在输入提示中 Ajax 请求），它较为有用。
+
+```html
+<div id="app">
+  <p>{{msg}}</p>
+  <input v-model="msg" placeholder="edit me" debounce="500">
+</div>
+```
+```js
+new Vue({
+  el:'#app',
+  data:{
+    msg:'edit me'
+  }
+})
+```
+<iframe width="100%" height="200" src="//jsfiddle.net/LNing/3k4a0ssu/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+> Note that the `debounce` param does not `debounce` the user’s input events: it debounces the “write” operation to the underlying data. Therefore you should use `vm.$watch()` to react to data changes when using debounce. For debouncing real DOM events you should use the [debounce filter](http://vuejs.org/api/#debounce).
+注意 `debounce` 参数不会延迟 input 事件：它延迟“写入”底层数据。因此在使用 `debounce` 时应当用 `vm.$watch()` 响应数据的变化。若想延迟 DOM 事件，应当使用 [debounce 过滤器](http://cn.vuejs.org/api/#debounce)。  
+
+
+> Next>>Transition
+未完，待续...
 
 [vue]:http://vuejs.org "Vue.js 官网"
 [install]:http://vuejs.org/guide/installation.html "installation"
