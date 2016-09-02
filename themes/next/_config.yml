@@ -397,3 +397,9 @@ images: images
 
 # Theme version
 version: 5.0.1
+
+# Donate 文章末尾显示打赏按钮
+# reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+reward_comment: 赏杯咖啡呗~
+wechatpay: /images/wechatpay.png
+alipay: /images/alipay.png
