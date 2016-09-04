@@ -1,10 +1,10 @@
 title: Sublime Text 的简单安装与详细配置
 date: 2013-12-12 11:10:01
 tags:  
- - Sublime Text
- - 编辑器
- - 配置
- - 插件
+    - Sublime Text
+    - 编辑器
+    - 配置
+    - 插件
 categories: 应用软件
 ---
 ![](https://ws2.sinaimg.cn/large/0060lm7Tgw1f456evwn23j30jg05kglq.jpg)

@@ -8,13 +8,14 @@ subtitle: 一个安静的角落
 description: 隐约雷鸣，阴霾天空，但盼风雨来，能留你在此
 author: 云淡风轻
 beian: 粤ICP备15050037号
-language: zh-Hans
+language: zh-cn
 timezone:
 since: 2013
+github: https:github.com/dotos
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://ioliu.cn
+url: http://ioliu.cn
 root: /
 permalink: :year/:title/
 permalink_defaults:
@@ -32,23 +33,21 @@ skip_render:
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
-titlecase: false # Transform title into titlecase
+titlecase: true # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-highlight:
-  enable: true
-  auto_detect: true
-  line_number: true
-  tab_replace:
+highlight: 
+    enable: true
+    line_number: false
 
 # Category & Tag
 default_category: uncategorized
-category_map:
-tag_map:
+category_map: category
+tag_map: tags
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -59,51 +58,55 @@ time_format: HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 0
+per_page: 10
 pagination_dir: page
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: next
+theme: apollo
 duoshuo: 
     shortname: ioliu
 baidu_analytics: 2119376191e432c012a0713bcca8a8ea
 google_analytics: UA-61934506-1
 
-sitemap:
-    path: sitemap.xml
-
-#站内搜索
-#swiftype_key: Aw2vnunYb9BSuaWU4shh
-
-# 社交链接，将在侧栏中显示
-# social:
-#   GitHub: https://github.com/eary
-#   Weibo: http://weibo.com/1842336184 
-#   Email: mailto:yy.liu@foxmail.com 
-#   Eooo: http://eooo.sinaapp.com
-#   阿里云: //ioliu.cn/go/aliyun 
-#   七牛: //ioliu.cn/go/qiniu
-
-# 设置站点的 Creative commons协议 http://creativecommons.org/
-# 可选的值有：by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
-creative_commons: by-nc-sa
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
 
 feed: 
-  type: atom
-  path: atom.xml
-  limit: 20
+    type: atom
+    path: atom.xml
+    limit: 20
 
+marked: 
+    gfm: true
+    lazyAttr: data-orig
+    blankSrc: /images/placeholder.gif
 
-# powered: 
-#   qiniu: //ioliu.cn/go/qiniu
-#   aliyun: //ioliu.cn/go/aliyun
+node_sass: 
+    outputStyle: compressed
+    sourceComments: false
 
+sitemap:  
+    path: sitemap.xml 
+
+archive_generator: 
+    per_page: 0
+    yearly: false
+    monthly: false
+    daily: false
+
+tag_generator: 
+    per_page: 0
+
+html_minifier: 
+    exclude: 
+    minifyJS: true
+    collapseWhitespace: true
+    html5: true
+    removeAttributeQuotes: true
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:

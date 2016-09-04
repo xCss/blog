@@ -1,9 +1,9 @@
 title: "Vue.js 不完全体验" 
 date: 2016-08-28 11:10:01
 tags:  
-  - Vue.js
-  - 前端
-  - JavaScript
+    - Vue.js
+    - 前端
+    - JavaScript
 categories: 学习笔记
 ---
 ![](http://vuejs.org/images/logo.png "Vue.js")

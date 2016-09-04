@@ -1,11 +1,13 @@
-title: "[译]JavaScript 最佳实践: 提升你代码质量的一些提示&技巧" 
+title: "JavaScript 最佳实践: 提升你代码质量的一些提示&技巧" 
 date: 2016-09-02 14:10:01
 tags:  
-  - 技巧
-  - 前端
-  - JavaScript
-  - 译文
-categories: 学习笔记
+    - 技巧
+    - 前端
+    - JavaScript
+    - 译文
+from: https://www.codementor.io/javascript/tutorial/javascript-best-practices
+author: "@johnnyb"
+social: https://www.codementor.io/johnnyb
 ---
 
 ![](https://ws4.sinaimg.cn/large/006qRazegw1f7f8plb62gj30p00cimxw.jpg)
@@ -14,7 +16,7 @@ categories: 学习笔记
 
 在本教程中，我会指出一些重要的 JavaScript 最佳实践，因此你不必觉得学习它是条艰难的路。准备提升你的代码吧！
 <!--more-->
-# 避免全局污染(Avoid polluting the global scope)
+## 避免全局污染(Avoid polluting the global scope)
 声明变量(`Declaring variables`)是很有趣的。有时候，你可能声明了全局变量，即使你不想声明它。在如今的浏览器中，全局变量存储在`window`对象中。因此，有很多有趣的东西发生在那里，你可能会重写默认值。
 让我们假设你有一个HTML文件，其中包含一个`<script>`标签(或者在加载的 JavaScript 文件中包含):
 ```js
@@ -100,7 +102,7 @@ foo.bar.bar.bar
 ![](https://ws1.sinaimg.cn/large/006qRazegw1f7fbn6xey4j30di0ca409.jpg)
 Yes，你可以无限的扩展这个对象(大概直到你的浏览器崩溃).
 
-# 使用严格模式(`use strict`)
+## 使用严格模式(`use strict`)
 严格的使用`use strict`！这只不过是(译者注:这里原作者可能是想表达`不仅仅是`)在你的代码脚本中添加字符串而已。
 举个栗子：
 ```js
@@ -123,7 +125,7 @@ console.log(a);
 ```
 你可能会奇怪，为什么不能将`use strict` 写在函数体外。当然，这是可以的，但它将会应用为全局的范围。这仍然是不错的，但如果你的代码中含有来自其他库的代码，这也会受其影响，或者你把所有的东西都绑定在一个文件里。
 
-# 严格相等(`Strict equal`)
+## 严格相等(`Strict equal`)
 这是短的。如果你使用`==`对比`a`和`b`(像在其他编程语言)，在 JavaScript 中，你可能这种非常奇怪的运行方式：如果你有一个字符串和一个数字，他们是相等的(`==`):
 ```js
 "42" == 42
@@ -135,7 +137,7 @@ console.log(a);
 // → false
 ```
 
-# 使用断言(`&&`/`||`)
+## 使用断言(`&&`/`||`)
 根据你的需要，你可以使用逻辑运算符是你的代码更简短。
 **默认值:**
   
@@ -171,7 +173,7 @@ if (expr) {
 
 如果你问我，尽管这些代码比较短，但它仍然是人类可读的。
 
-# 类型转换
+## 类型转换
 有几种方式来转换这些东西，这取决于你想怎么做。最常见的方式是：
 ```js
 // From anything to a number
@@ -225,7 +227,7 @@ JSON.stringify(window);
 // ⚠ TypeError: JSON.stringify cannot serialize cyclic structures.
 ```
 
-# 代码样式/样式指南
+## 代码样式/样式指南
 在新项目中，遵循整个文件相同的代码风格。对于现有的，采用已经存在的代码风格，除非你只是决定改变它(提示：同你的合作者商讨)。即使你创建并记录你的代码风格，请始终遵循它。
 
 这里是不同的现有的代码样式：
@@ -245,27 +247,20 @@ JSON.stringify(window);
 
 Happy programming!
 
-## 你可能会感兴趣的一些其他的相关教程：
-- [Beginner’s Guide: the Best Way to Learn JavaScript](https://www.codementor.io/javascript/tutorial/how-to-learn-javascript-properly)
-- [Top Ten Things Beginners Must Know About JavaScript](https://www.codementor.io/javascript/tutorial/top-ten-things-beginners-must-know-javascript)
-- [Skills JavaScript Developers Should Learn in 2016](https://www.codementor.io/learn-programming/javascript-trends-skills-developers-should-learn)
-- [4 Easy Ways to Start Using ES2015](https://www.codementor.io/javascript/tutorial/4-easy-ways-to-start-using-es2015)
-- [21 Essential JavaScript Interview Questions](https://www.codementor.io/javascript/tutorial/21-essential-javascript-tech-interview-practice-questions-answers)
-
-
 
 -----------------------------------------------------------------  
-本文由 [云淡风轻](http://ioliu.cn) 翻译，如有错误，请留言告知，多谢。
 
-致谢：[@屠夫](https://www.haomwei.com) 、[@QistChan](https://qistchan.com)、[@nApolin](https://napolin.cn)、[@Ant](http://www.antzone.cn)
-
-英语原文：[JavaScript Best Practices: Tips & Tricks to Level Up Your Code](https://www.codementor.io/javascript/tutorial/javascript-best-practices)
+致谢：[@屠夫][tufu] 、[@QistChan][qistchan]、[@nApolin][napolin]、[@Ant][ant]
 
 -----------------------------------------------------------------
 
 
 [browserify]:http://browserify.org/
 [web development guide]:https://www.codementor.io/learn-development/javascript-css-html-tutorial-front-end-development-tools
+[tufu]:https://www.haomwei.com
+[qistchan]:https://qistchan.com
+[napolin]:https://napolin.cn
+[ant]:http://www.antzone.cn
 
 
 

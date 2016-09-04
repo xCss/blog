@@ -1,7 +1,8 @@
 title: "MarkDown 不完全指南"
 date: 2016-05-18 14:21:08
 tags: 
-  - "MarkDown"
+    - MarkDown
+    - Guide
 categories: 学习笔记
 ---
 ![](https://ws4.sinaimg.cn/large/0060lm7Tgw1f456ew31f7j30jg05kdfu.jpg)

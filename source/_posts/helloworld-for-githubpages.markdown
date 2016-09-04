@@ -1,9 +1,9 @@
 title: "利用Github Pages和Jekyll搭建无限流量的免费Blog"
 date: 2013-12-14 12:49:18
 tags: 
-  - Jekyll
-  - 免费博客
-  - "GitHub Pages"
+    - Jekyll
+    - 免费博客
+    - "GitHub Pages"
 categories: 学习笔记
 ---
 

@@ -1,10 +1,10 @@
 title: "解决 ByClassName 在IE中的兼容性问题"
 date: 2014-05-22 14:19:18
 tags: 
-  - JavaScript
-  - getElementsByClassName
-  - IE兼容性
-  - 前端
+    - JavaScript
+    - getElementsByClassName
+    - IE兼容性
+    - 前端
 categories: 学习笔记
 ---
 

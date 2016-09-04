@@ -1,9 +1,9 @@
 title: "响应式设计 (Responsive Design) 中常用的媒体查询"
 date: 2016-05-11 19:21:08
 tags: 
-  - "Media Query"
-  - "响应式"
-  - "媒体查询"
+    - "Media Query"
+    - "响应式"
+    - "媒体查询"
 categories: 学习笔记
 ---
 ![](https://ws4.sinaimg.cn/large/0060lm7Tgw1f456ew2yobj30jg05kwee.jpg)

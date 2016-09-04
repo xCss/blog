@@ -1,9 +1,9 @@
 title: "生成 SSH Key 免密码提交 GitHub"
 date: 2015-12-13 10:19:18
 tags: 
-  - GitHub
-  - "SSH Key"
-  - "免密码"
+    - GitHub
+    - "SSH Key"
+    - "免密码"
 categories: 学习笔记
 ---
 ![](https://ws3.sinaimg.cn/large/0060lm7Tgw1f456ew154kj30jg05k745.jpg)

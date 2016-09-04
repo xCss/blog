@@ -1,11 +1,11 @@
 title: 你可能不知道的一些JavaScript 奇技淫巧
 date: 2015-05-07 10:21:08
 tags:  
- - JavaScript 
- - JavaScript技巧 
- - 结构类型
- - 数组遍历 
- - 前端
+     - JavaScript 
+     - JavaScript技巧 
+     - 结构类型
+     - 数组遍历 
+     - 前端
 categories: 学习笔记
 ---
 ![](https://ws4.sinaimg.cn/large/006qRazegw1f41ptt98crj30jg05kmx5.jpg)

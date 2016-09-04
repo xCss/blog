@@ -1,9 +1,9 @@
 title: "前端 JavaScript 规范"
 date: 2015-05-12 12:53:34
 tags: 
-  - JavaScript
-  - 规范
-  - 前端
+    - JavaScript
+    - 规范
+    - 前端
 categories: 学习笔记
 ---
 
