@@ -1,0 +1,11 @@
+extends partial/layout
+
+block site_title
+    != "标签 · " + config.title
+
+block container
+    include mixins/post
+    +tags()
+
+block copyright
+    include partial/copyright

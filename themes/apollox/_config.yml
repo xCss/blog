@@ -1,0 +1,24 @@
+menu:
+    Home: /
+    Archive: /archives/
+    Tags: /tags/
+    Weibo: http://weibo.com/1842336184 
+    GitHub: https://github.com/dotos
+    Rss: /atom.xml
+
+favicon: /images/favicon.ico
+logo: /images/favicon.png
+
+# Comment
+# e.g disqus: seansun
+disqus:
+duoshuo: ioliu
+
+# Analytics
+# google-analytics:
+ga: UA-61934506-1
+# baidu_analytics
+ba: 2119376191e432c012a0713bcca8a8ea
+
+# Copyright Infomation
+startyear: 2013

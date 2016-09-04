@@ -1,0 +1,36 @@
+meta(charset="utf-8")
+meta(name="X-UA-Compatible", content="IE=edge")
+
+title 
+    block site_title
+        = config.title
+block description
+    meta(name="description", content= config.description ? config.description : 'A Blog Powered By Hexo')
+
+meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+link(rel="short icon", type="image/x-icon", href=url_for(theme.favicon))
+link(rel="stylesheet", href=url_for("scss/apollo.css"))
+link(rel="stylesheet",href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css")
+
+<!--[if lt IE 9]>
+script(src="/scripts/html5shiv/html5shiv.min.js")
+script(src="/scripts/html5shiv/html5shiv-printshiv.min.js")
+<![endif]-->
+
+- var xml = config.url + '/atom.xml'
+    link(rel="search", type="application/opensearchdescription+xml", href=xml, title=config.title)
+
+//- block prerender
+//-     - var next_link = page.next_link;
+//-         if page.next
+//-             link(rel='prerender', href=url_for(next_link) + 'index.html')
+//-             link(rel='next', href=url_for(next_link) + 'index.html')
+
+//-     - var next = page.next ? page.next.path : false; 
+//-         if next
+//-             link(rel='prerender', href=url_for(next) + 'index.html')
+//-             link(rel='next', href=url_for(next) + 'index.html')
+
+//-     if is_home()
+//-         link(rel='prerender', href="/archives/index.html")
+//-         link(rel='next', href="/archives/index.html")

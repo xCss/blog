@@ -1,0 +1,72 @@
+if is_post()
+    if theme.duoshuo
+        script(src='/scripts/ua-parser.min.js?v=0.7.9')
+        script(src="/scripts/hook-duoshuo.js")
+
+
+//-  if is_post()
+script(src="/scripts/lazy.js")
+- var lazyAttr = config.marked.lazyAttr || 'data-src';
+script 
+    != 'echo.lazyAttr = \"' + lazyAttr + '\";'
+script.
+    echo.init({
+        offsetBottom: 400,
+        throttle: 200,
+        unload: true,
+        callback: function (element, op) {}
+    });
+    document.addEventListener('DOMContentLoaded', function () {
+        echo.render();
+    }, false);
+
+//- LaTex
+//- script(async src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-MML-AM_CHTML")
+
+//- Analytics tracking
+- var ga = theme.ga
+if ga
+    script
+        | if (!/^http:\/\/localhost/.test(location.href) && !/_@_@_@=#\$#\$#\$/.test(document.cookie)) {
+        | (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='https://www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',
+        != '"' + ga + '"'
+        | ,'auto');ga('send','pageview');
+        | }
+
+//- Baidu Analytics
+- var ba = theme.ba
+if ba 
+    script.
+        if(!/^http:\/\/localhost/.test(location.href)){
+            var _hmt = _hmt || [];
+            (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?#{ba}";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+            })();
+        }
+
+//- Visibility
+script.
+    (function(win,doc){
+        var title = doc.title;
+        var hidden = 'hidden' in doc ? 'hidden' : 
+                     'webkitHidden' in doc ? 'webKitHidden' :
+                     'mozHidden' in doc ? 'mozHidden' :
+                     null;
+        var state = 'visibilityState' in doc ? 'visibilityState' :
+                    'webkitVisibilityState' in doc ? 'webkitVisibilityState' :
+                    'mozVisibilityState' in doc ? 'mozVisibilityState' :
+                    null;
+        if(!!hidden && !!state){
+            var stateChangeEvent = hidden.replace(/hidden/i,'visibilitychange');
+            console.log(stateChangeEvent);
+            doc.addEventListener(stateChangeEvent,function(event){
+                doc.title = doc[hidden] ? "(☯_☯)我藏起来了哦~ | " + title : title;
+            },false);
+        }
+    })(window,document);
+        
+        
+        
