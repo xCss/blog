@@ -6,7 +6,7 @@ tags:
     - JavaScript
 categories: 学习笔记
 ---
-![](http://vuejs.org/images/logo.png "Vue.js")
+![](https://ws2.sinaimg.cn/large/006qRazegw1f7ikiy48imj30b40b40sy.jpg)
 刚刚看了下之前发文章的时间，发现好久都没写文章了。。。断断续续的，也不知道在忙些什么<BR> -_-!!!!。
 
 最近公司项目上用到了 [Vue.js][vue] ,秉着`好记性比如烂笔头`的原则，准备在这里把 [Vue.js][vue] 的例子挨个敲一遍，学习学习，顺带也算做个记录，方便以后查找 (会不会很蠢啊 \#_\#)。
