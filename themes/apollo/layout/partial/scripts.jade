@@ -2,9 +2,9 @@ if is_post()
     if theme.duoshuo
         script(src='/scripts/ua-parser.min.js?v=0.7.9')
         script(src="/scripts/hook-duoshuo.js")
-
-
 //-  if is_post()
+//- Visibility
+script(src="/scripts/visibility.js")
 script(src="/scripts/lazy.js")
 - var lazyAttr = config.marked.lazyAttr || 'data-src';
 script 
@@ -19,20 +19,13 @@ script.
     document.addEventListener('DOMContentLoaded', function () {
         echo.render();
     }, false);
-
-//- LaTex
-//- script(async src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-MML-AM_CHTML")
-
 //- Analytics tracking
 - var ga = theme.ga
 if ga
-    script
-        | if (!/^http:\/\/localhost/.test(location.href) && !/_@_@_@=#\$#\$#\$/.test(document.cookie)) {
-        | (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='https://www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',
-        != '"' + ga + '"'
-        | ,'auto');ga('send','pageview');
-        | }
-
+    script.
+        if (!/^http:\/\/localhost/.test(location.href) && !/_@_@_@=#\$#\$#\$/.test(document.cookie)) {
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='https://www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create','#{ga}','auto');ga('send','pageview');
+        }
 //- Baidu Analytics
 - var ba = theme.ba
 if ba 
@@ -46,27 +39,15 @@ if ba
             s.parentNode.insertBefore(hm, s);
             })();
         }
-
-//- Visibility
-script.
-    (function(win,doc){
-        var title = doc.title;
-        var hidden = 'hidden' in doc ? 'hidden' : 
-                     'webkitHidden' in doc ? 'webKitHidden' :
-                     'mozHidden' in doc ? 'mozHidden' :
-                     null;
-        var state = 'visibilityState' in doc ? 'visibilityState' :
-                    'webkitVisibilityState' in doc ? 'webkitVisibilityState' :
-                    'mozVisibilityState' in doc ? 'mozVisibilityState' :
-                    null;
-        if(!!hidden && !!state){
-            var stateChangeEvent = hidden.replace(/hidden/i,'visibilitychange');
-            console.log(stateChangeEvent);
-            doc.addEventListener(stateChangeEvent,function(event){
-                doc.title = doc[hidden] ? "(☯_☯)我藏起来了哦~ | " + title : title;
-            },false);
-        }
-    })(window,document);
-        
-        
-        
+//- leanCloud
+- var app_id = theme.leancloud_visitors.app_id
+- var app_key = theme.leancloud_visitors.app_key
+- var show = theme.leancloud_visitors.enable
+if show
+    script(src="https://cdn1.lncld.net/static/js/av-min-1.2.1.js")
+    script(src="/scripts/lean-analytics.js")
+    script.
+        AV.init({
+            appId: '#{app_id}',
+            appKey: '#{app_key}'
+        });

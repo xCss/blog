@@ -8,7 +8,7 @@ from: http://xazure.net/2011/06/tips-snippets/html-css/css-content-and-special-c
 author: "@Christian Snodgrass"
 social: http://xazure.net/about/
 ---
-当我写这个主题`theme`得时候，我想在我的列表元素(`list elements`)上用CSS内容(`CSS content`)属性添加一些**向右双角引号(right-pointing double-angle quotation marks)(`<<`)**。
+当我写这个主题`theme`的时候，我想在我的列表元素(`list elements`)上用CSS内容(`CSS content`)属性添加一些**向右双角引号(right-pointing double-angle quotation marks)(`<<`)**。
 
 所以，我在里面添加了`&raquo;`，然而，它并不工作！
 
@@ -20,12 +20,15 @@ social: http://xazure.net/about/
 这里有很多的HTML实体对应表，但是没有更多的 Unicode十六进制表，所以很方便的知道二者之间的转换。你需要知道所有的HTML十进制单位(它们看起来像这样`&#123;`，而不是像这样`&quot;`)。
 那数字，你猜到了吧，就是十进制格式。我们需要将其转换成Unicode十六进制(我知道，你震惊了！)。
 
-If you aren’t a computer programmer or math whiz, you may be unfamiliar with how to do this. Basically, you start with the largest power of 16 multiple that you can find that is smaller than the decimal number, subtract that and make the multiple your digit… okay, it’s not that hard, but there is a much quicker way.
-如果你不是一个程序员或者数学天才，可能你不熟悉到底该怎么做。基本上，你从减去该数字的16的最大倍数开始，你可以得到小于10的数字
 
-Fire up something like your classic Windows Calculator and switch to it “Programmer” view (View > Programmer). Click the radio button that says “Dec”, type in your number, then hit the radio button that says “Hex” and viola, you have your hex number.
+如果你不是一个程序员或者数学天才，可能你不熟悉到底该怎么做(具体请[Google](https://google.com))。OK，其实这并不难，但有一个更快捷的方式:
 
-Just slap that number after a \ and you have your unicode hexadecimal character.
+打开类似于经典的Windows计算器，切换到“程序员”视图(`View > Programmer`)。点击`Dec(十进制)`单选按钮，输入你的数字然后点击`Hex(十六进制)`按钮，你就会得到你的十六进制数字。
 
-Even Easier – An HTML Entity and Unicode Hexadecimal Table
-In case you don’t have a decimal to hexadecimal converter handy, here is a quick chart for you to reference of some of the more common (and not so common) symbols:
+然后把刚刚得到的数字放到`\`之后，你就得到了你自己的Unicode十六进制字符。
+
+## 更容易的方法 - HTML实体(HTML Entity)和 Unicode 十六进制 对应表
+
+这个方法不需要你手动的将十进制转成十六进制，这个图表能够给你一些常见的(或者不是那么常见的)符号的参考：
+<iframe width="100%" height="500" src="//jsfiddle.net/LNing/kqq1wnus/embedded/result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+

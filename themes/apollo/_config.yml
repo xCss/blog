@@ -14,6 +14,14 @@ logo: /images/favicon.png
 disqus:
 duoshuo: ioliu
 
+
+# Show number of visitors to each article.
+# You can visit https://leancloud.cn get AppID and AppKey.
+leancloud_visitors:
+  enable: true
+  app_id: R9cQjqaD9AXPKY7AQiU6U6yl
+  app_key: YHUU5n9sbvpRQCdiIU8aRsmH
+
 # Analytics
 # google-analytics:
 ga: UA-61934506-1
