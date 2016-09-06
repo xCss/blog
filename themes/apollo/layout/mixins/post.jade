@@ -69,7 +69,7 @@ mixin postList()
         - var monthChange = false;
         - page.posts.each(function (item) {
             - i++;
-            - var itemMonth = date(item.date, 'YYYY-MM');
+            - var itemMonth = date(item.date, 'YYYY');
             - monthChange = month !== itemMonth;
             - month = monthChange ? itemMonth : month;
 

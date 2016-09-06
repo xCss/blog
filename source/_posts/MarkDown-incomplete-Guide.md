@@ -622,9 +622,9 @@ Code:
 ```
 Preview:
 ***
-![Alt text](/default_avatar.png)
+![Alt text](/images/favicon.png)
 
-![Alt text](/default_avatar.png "Optional title")
+![Alt text](/images/favicon.png "Optional title")
 ***
 That is:
 
@@ -642,7 +642,7 @@ Code:
 ```
 Preview:
 ***
-[img id]: /default_avatar.png  "Optional title attribute"
+[img id]: /images/favicon.png  "Optional title attribute"
 ![Alt text][img id]
 ***
 ### Strikethrough
