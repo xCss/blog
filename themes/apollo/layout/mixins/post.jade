@@ -8,7 +8,7 @@ mixin postInfo(item)
             a.post-tag(href= url_for(tag.path), title=tag.name)
                 != '#' + tag.name
         - })
-        span.leancloud-visitors(id= url_for(item.path), title=item.title)
+        span.leancloud-visitors(id= url_for(item.path), title=item.title) -°
         
         if is_post()
             .cp-tip
