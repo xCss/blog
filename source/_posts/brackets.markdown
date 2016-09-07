@@ -14,12 +14,12 @@ Brackets 的特点是简约、优雅、快捷！它没有很多的视图或者�
 
 平台：Windows/Mac OS X/Linux  
 特色：实时开发。在按下ctrl+s的时候，自动刷新HTML页面；在修改css文件的时候，每次按下键盘都会刷新浏览器中的表现，并在光标停留在css选择器中时会标识对应的元素，much like chrome developer tool do，有图有真相。  
-![Brackets](https://sinaimg.daoapp.io/ww4.sinaimg.cn/large/0060lm7Tgw1f456u5ihzsj30dw055t9a.jpg)  
+![](https://ws1.sinaimg.cn/large/6dcfd1b8gw1f7kxed24zkj20dw055t9a.jpg) 
 
 除此之外，还自带了JSLint工具(JavaScript验证工具)，并且官方还提供了不少插件，比如Emmet(以前叫zen coding)这些插件都可以在`扩展管理器`中找到。  
 
 当然，强大的Brackets提供了多国语言的支持，如果要修改语言的话，请在导航栏上点击`Debug`&gt;`Select lanuage`，然后选择`简体中文`，重新启动一下软件就好了。  
-![Select lanuage](https://sinaimg.daoapp.io/ww3.sinaimg.cn/large/006qRazegw1f456xj28wbj311y0ka10g.jpg)   
+![](https://ws1.sinaimg.cn/large/6dcfd1b8gw1f7kw0wwbpcj211y0ka10g.jpg)
 
 好了，就这么多，I wish you good mood every day！ 
 

@@ -61,7 +61,7 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 
 ### Preferences.sublime文件的详细配置
 接下来就是>>>菜单栏`Preferences>Setting User`打开`Preferences.sublime`配置文件，去搜索了下，具体配置如下:
-```
+```json
 {
     //主题文件的位置
     "theme":"Centurion.sublime-theme",

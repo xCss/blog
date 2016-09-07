@@ -44,10 +44,7 @@ if ba
 - var app_key = theme.leancloud_visitors.app_key
 - var show = theme.leancloud_visitors.enable
 if show
-    script(src="https://cdn1.lncld.net/static/js/av-min-1.2.1.js")
+    script(src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js")
     script(src="/scripts/lean-analytics.js")
     script.
-        AV.init({
-            appId: '#{app_id}',
-            appKey: '#{app_key}'
-        });
+        AV.initialize('#{app_id}','#{app_key}');
