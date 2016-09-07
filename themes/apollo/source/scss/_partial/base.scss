@@ -70,20 +70,24 @@ iframe, video {
 table {
     width: 100%;
     margin: 1em auto;
+	border-collapse: collapse;
+	border: 1px solid #dedede;
     thead {
-        background-color: #ddd;
+		background: #f8f8f8;
         th {
             padding: 5px;
             min-width: 80px;
+			border: 1px solid #dedede;
         }
     }
     tbody {
-        tr:nth-child(2n) {
-            background-color: #eee;
-        }
+		tr:hover{
+			background: #efefef;
+		}
         td {
             padding: 5px;
             vertical-align: text-top;
+			border: 1px solid #dedede;
         }
     }
 }
