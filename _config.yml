@@ -112,5 +112,5 @@ html_minifier:
 deploy:
   type: git
   repo: 
-    github: git@github.com:dotos/notes.git,master
+    github: git@github.com:xcss/notes.git,master
     coding: git@git.coding.net:msg/msg,coding-pages

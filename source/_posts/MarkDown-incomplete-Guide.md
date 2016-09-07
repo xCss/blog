@@ -680,11 +680,11 @@ GFM will autolink standard URLs.
 
 Code:
 ```
-https://github.com/dotos
+https://github.com/xcss
 ```
 Preview:
 ***
-https://github.com/dotos
+https://github.com/xcss
 ***
 
 ### Backslash Escapes
