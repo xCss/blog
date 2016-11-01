@@ -11,7 +11,7 @@ beian: 粤ICP备15050037号
 language: zh-cn
 timezone:
 since: 2013
-github: https:github.com/dotos
+github: https:github.com/xcCss
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

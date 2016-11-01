@@ -11,7 +11,7 @@
 #Start Up
 1.克隆`hexo.git`到本地
 ```
-git clone git@github.com:dotos/hexo.git
+git clone git@github.com:xcss/hexo.git
 ```
 2.进入`hexo`目录安装相关插件
 ```
