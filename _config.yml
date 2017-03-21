@@ -8,10 +8,10 @@ subtitle: 一个安静的角落
 description: 隐约雷鸣，阴霾天空，但盼风雨来，能留你在此
 author: 云淡风轻
 beian: 粤ICP备15050037号
-language: zh-cn
+language: zh-Hans
 timezone:
 since: 2013
-github: https:github.com/xcCss
+github: https:github.com/xCss
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -64,12 +64,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: apollo
-duoshuo: 
-    shortname: ioliu
-baidu_analytics: 2119376191e432c012a0713bcca8a8ea
-google_analytics: UA-61934506-1
-
+theme: next
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
