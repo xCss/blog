@@ -22,5 +22,17 @@
 
 {% for name, internal in js_vendors %}
   {% set internal_script = url_for(theme.vendors._internal) + '/' + internal %}
-  <script type="text/javascript" src="{{ theme.vendors[name] | default(internal_script) }}"></script>
+  {% if name !== "canvas_nest" %}
+    <script type="text/javascript" src="{{ theme.vendors[name] | default(internal_script) }}"></script>
+  {% else %}
+    <script type="text/javascript">
+      // 判断是否是手机，如果是手机，则不加载canvas-nest.js
+      $(function(){
+        var isMobile = /(iphone|ipod|ipad|android|iemobile|blackberry|symbianos|windows phone|meego)/.test(navigator.userAgent.toLowerCase());
+        if(!isMobile){
+          $.getScript("{{theme.vendors[name] | default(internal_script)}}")
+        }
+      })
+    </script>
+  {% endif %}
 {% endfor %}

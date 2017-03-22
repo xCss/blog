@@ -70,38 +70,15 @@ theme: next
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
 
-feed: 
-    type: atom
-    path: atom.xml
-    limit: 20
+#RSS订阅
+plugin:
+- hexo-generator-feed
+- hexo-generator-sitemap
 
-marked: 
-    gfm: true
-    lazyAttr: data-orig
-    blankSrc: /images/placeholder.gif
 
-node_sass: 
-    outputStyle: compressed
-    sourceComments: false
 
-sitemap:  
-    path: sitemap.xml 
+neat_enable: true
 
-archive_generator: 
-    per_page: 0
-    yearly: false
-    monthly: false
-    daily: false
-
-tag_generator: 
-    per_page: 0
-
-html_minifier: 
-    exclude: 
-    minifyJS: true
-    collapseWhitespace: true
-    html5: true
-    removeAttributeQuotes: true
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:

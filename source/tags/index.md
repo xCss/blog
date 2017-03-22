@@ -1,5 +1,4 @@
----
-layout: tags
-title: "标签"
+type: tags
+title: "All Tags"
 comments: false
 ---
