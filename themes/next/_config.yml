@@ -213,12 +213,10 @@ links_title: Friends
 # links_layout: block
 links_layout: inline
 links:  
-  GeHaoWu: https://www.gehaowu.com
+  葛豪武: https://www.gehaowu.com
   QistChan: https://qistchan.com
   nApolin: https://napolin.cn
   屠城: https://www.haomwei.com
-  安生's Blog: https://ansheng.me/
-  前端狗: http://www.fedog.me/
 
 
 # ---------------------------------------------------------------
@@ -304,7 +302,7 @@ mathjax:
 baidu_analytics: 2119376191e432c012a0713bcca8a8ea
 
 # Duoshuo ShortName
-duoshuo_shortname: 
+duoshuo_shortname: ioliu
 # Disqus
 #disqus_shortname:
 
