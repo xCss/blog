@@ -20,14 +20,14 @@ categories: 学习笔记
 
 # 获取 Let's Encrypt
 ![](https://ws1.sinaimg.cn/large/006qRazegy1fduo29ztewj30mb0bxt9d.jpg)
-Let's Encrypt 证书生成不需要手动进行，官方推荐 [Certbot](https://certbot.eff.org) 这套自动化工具来实现。3步轻松搞定：
+Let's Encrypt 证书生成不需要手动进行，官方推荐 [Certbot](https://certbot.eff.org) 这套自动化工具来实现。4步轻松搞定：
 - 下载安装 certbot (Let’s Encrypt项目的自动化工具)
 - 获得SSL证书
 - 修改Nginx配置文件
 - 续订
 
 ## 1. 安装 Certbot
-根据 [Certbot](https://certbot.eff.org) 官网指南，Debian 8上执行如下命令，安装certbot:
+根据 [Certbot](https://certbot.eff.org) 官网指南，`Debian 8`上执行如下命令，安装certbot:
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install certbot -t jessie-backports
@@ -127,4 +127,16 @@ $ sudo crontab -e
 [Qualys SSL Labs](https://www.ssllabs.com/ssltest/index.html) 提供了全面的 SSL 安全性测试，填写你的网站域名，给自己的 HTTPS 配置打个分。
 ![](https://ws1.sinaimg.cn/large/006qRazegy1fdupydm71rj30ts0fkt9s.jpg)
 这意味着你网站的HTTPS已经启用成功啦，为自己鼓个掌。 (๑•̀ㅂ•́)و✧。
+
+------------------------------------------
+
+# 附：
+还有一种方法，不需要访问你的网站目录，但需要临时停止Nginx服务器(需要用到80端口)：
+1. 停止Nginx
+2. 域名解析到你的服务器IP
+3. 执行命令:`certbot certonly --standalone -d example.com -d www.example.com`
+
+然后的步骤就和上面一样啦~~~
+
+以上。
 
