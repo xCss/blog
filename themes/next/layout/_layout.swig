@@ -9,6 +9,7 @@
 <head>
   {% include '_partials/head.swig' %}
   <title>{% block title %}{% endblock %}</title>
+  <meta name="baidu_union_verify" content="eba7daf39be610ed18ca2f77b98f08a4">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang || page.language || config.language }}">
