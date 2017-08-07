@@ -262,6 +262,11 @@ post_copyright:
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
 
+# Valine Comments
+valine:
+  enable: true
+  appId: R9cQjqaD9AXPKY7AQiU6U6yl
+  appKey: YHUU5n9sbvpRQCdiIU8aRsmH
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
