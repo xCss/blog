@@ -70,7 +70,7 @@ valine:
   appKey: Your_AppKey
 ```
 ### 修改`comments.swig`
-> 注：因为我没有其他的评论系统需求，所以将其他的删掉了。[点这里，查看原主题的`comments.swin`备份文件](https://github.com/iissnan/hexo-theme-next/blob/master/layout/_partials/comments.swig)
+> 注：因为我没有其他的评论系统需求，所以将其他的删掉了。[点这里，查看原主题的`comments.swig`备份文件](https://github.com/iissnan/hexo-theme-next/blob/master/layout/_partials/comments.swig)
 
 打开`/themes/next/layout/_partials/comments.swig`，整个文件修改为：
 ```
@@ -94,7 +94,7 @@ valine:
 ```
 > **注**：我引入的`Valine`路径为：`/lib/Valine.min.js`，是已将文件[Valine.min.js](https://raw.githubusercontent.com/xCss/Valine/master/dist/Valine.min.js)放到了目录`/themes/next/source/lib/`下。
 
-好了，差不多了，如果你看到你的文章页面出现了如下图所示的评论框，那么恭喜你，你已装逼成功，赶紧去炫耀吧。
+好了，差不多了，如果你看到你的文章页面出现了如下图所示的评论框，那么恭喜你，你已装逼成功，赶紧去炫耀吧。ヽ(￣▽￣)ﾉ
 ![](https://ws1.sinaimg.cn/large/006qRazegy1fiba80u6lrj30mg09hjrf.jpg)
 
 
