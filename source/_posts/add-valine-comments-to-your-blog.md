@@ -17,9 +17,9 @@ categories: 学习笔记
 
 <!-- more -->
 
-## 食用方法
+# 食用方法
 
-### 获取 `APP ID` 和 `APP KEY`
+## 获取 `APP ID` 和 `APP KEY`
 - 1.[点击这里登录或注册`Leancloud`](https://leancloud.cn/dashboard/login.html#/signup)
 - 2.[点这里创建应用](https://leancloud.cn/dashboard/applist.html#/newapp)，应用名看个人喜好。
 - 3.选择刚刚创建的`应用`>`设置`>选择`应用 Key`，然后你就能看到你的`APP ID`和`APP KEY`了，参考下图：
@@ -27,7 +27,7 @@ categories: 学习笔记
 - 4.为了您的数据安全，请填写`应用`>`设置`>`安全设置`中的`Web 安全域名`，如下图：
     ![](https://ws1.sinaimg.cn/large/006qRazegy1fiba67warvj30re0k5abv.jpg)
 
-### 页面中的设置
+## 页面中的设置
 页面中的食用方法炒鸡简单，来来来，我们用代码说话：
 ```html
 <!DOCTYPE html>
@@ -57,11 +57,11 @@ categories: 学习笔记
 ```
 看吧，我是不是没说大话(`_(:з」∠)_一本正经的胡说八道`)。
 
-## Hexo 中的解决方案
+# Hexo 中的解决方案
 我知道，上面的东西都不是你们想要的，而你们真正想要的是在这里吧(｡･ω･｡)，来来来，老司机带你们上车。
 > **注**：该解决方案基于Hexo主题--[NexT.Pisces](https://github.com/iissnan/hexo-theme-next)
 
-### 配置`_config.yml`
+## 配置`_config.yml`
 主题目录下的`/themes/next/_config.yml`中添加：
 ```yml
 valine:
@@ -69,7 +69,7 @@ valine:
   appId: Your_AppId
   appKey: Your_AppKey
 ```
-### 修改`comments.swig`
+## 修改`comments.swig`
 > 注：因为我没有其他的评论系统需求，所以将其他的删掉了。[点这里，查看原主题的`comments.swig`备份文件](https://github.com/iissnan/hexo-theme-next/blob/master/layout/_partials/comments.swig)
 
 打开`/themes/next/layout/_partials/comments.swig`，整个文件修改为：
@@ -103,6 +103,21 @@ valine:
 具体步骤：`登录`>选择你创建的`应用`>`存储`>选择Class`Comment`，然后就可以尽情的发挥你的权利啦(～￣▽￣)～ 
 ![](https://ws1.sinaimg.cn/large/006qRazegy1fibb4pbvv4j31820iqjw0.jpg)
 
+
+------------------------------------------------------------------
+
+# 关于删除/修改权限问题的说明
+由于之前没有完读`Leancloud`的文档，造成了之前的数据可以通过终端删除。
+v2网友[@xqin](https://www.v2ex.com/member/xqin)在帖子[Valine--一款基于Leancloud的极简风评论系统](https://www.v2ex.com/t/381243#reply18)中已经测试过，测试过程如下图：
+![](https://ws1.sinaimg.cn/large/006qRazegy1fidq808b8pj30n908jq3g.jpg)
+
+最新版本[(v1.1.3)的Valine](https://github.com/xCss/Valine/releases)已经修复了这个问题，请正在用此款评论系统的朋友，尽快更新到最新版本。
+
+对于`leancloud`中`已经存在`的数据，做如下操作可防止恶意的终端删除：
+`登录Leancloud`>选择你存评论的应用>选择`Comment`Class>对里面的每行数据中的`ACL列`进行`编辑`，勾选`所有用户--读`>`设置`。如下图：
+![](https://ws1.sinaimg.cn/large/006qRazegy1fidqekp40yj30hn0evgm8.jpg)
+
+**请务必尽快更新到最新版本，谢谢！**
 
 --EOF--
 
