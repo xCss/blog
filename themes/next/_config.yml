@@ -345,6 +345,10 @@ valine:
   enable: true
   appid: R9cQjqaD9AXPKY7AQiU6U6yl # your leancloud application appid
   appkey: YHUU5n9sbvpRQCdiIU8aRsmH # your leancloud application appkey
+  notify: true
+  verify: true
+  placeholder: ヾﾉ≧∀≦)o来啊，快活啊!
+
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
