@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 
 {% set html_class = 'theme-next ' + theme.scheme %}
 {% if theme.use_motion %}
@@ -9,12 +9,10 @@
 <head>
   {% include '_partials/head.swig' %}
   <title>{% block title %}{% endblock %}</title>
-  <meta name="baidu_union_verify" content="eba7daf39be610ed18ca2f77b98f08a4">
+  {% include '_third-party/analytics/index.swig' %}
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang || page.language || config.language }}">
-
-  {% include '_third-party/analytics/index.swig' %}
 
   {% set container_class = "container " %}
   {% if theme.sidebar.position %}
@@ -46,7 +44,7 @@
     <footer id="footer" class="footer">
       <div class="footer-inner">
         {% include '_partials/footer.swig' %}
-        {% include '_third-party/analytics/busuanzi-counter.swig' %}
+        {% include '_third-party/analytics/analytics-with-widget.swig' %}
         {% block footer %}{% endblock %}
       </div>
     </footer>
@@ -68,7 +66,9 @@
   {% set scheme_script = '_scripts/schemes/' + theme.scheme | lower + '.swig' %}
   {% include scheme_script %}
 
-  {% block script_extra %}{% endblock %}
+  {% block script_extra %}
+    {% include '_scripts/pages/post-details.swig' %}
+  {% endblock %}
 
   {% include '_scripts/boostrap.swig' %}
 
@@ -76,7 +76,9 @@
   {% include '_third-party/search/index.swig' %}
   {% include '_third-party/analytics/lean-analytics.swig' %}
   {% include '_third-party/seo/baidu-push.swig' %}
+  {% include '_third-party/rating.swig' %}
   {% include '_third-party/mathjax.swig' %}
+  {% include '_third-party/scroll-cookie.swig' %}
   {% include '_third-party/exturl.swig' %}
 </body>
 </html>

@@ -20,11 +20,11 @@ categories: 学习笔记
 # 食用方法
 
 ## 获取 `APP ID` 和 `APP KEY`
-- 1.[点击这里登录或注册`Leancloud`](https://leancloud.cn/dashboard/login.html#/signup)
-- 2.[点这里创建应用](https://leancloud.cn/dashboard/applist.html#/newapp)，应用名看个人喜好。
-- 3.选择刚刚创建的`应用`>`设置`>选择`应用 Key`，然后你就能看到你的`APP ID`和`APP KEY`了，参考下图：
+1. [点击这里登录或注册`Leancloud`](https://leancloud.cn/dashboard/login.html#/signup)
+2. [点这里创建应用](https://leancloud.cn/dashboard/applist.html#/newapp)，应用名看个人喜好。
+3. 选择刚刚创建的`应用`>`设置`>选择`应用 Key`，然后你就能看到你的`APP ID`和`APP KEY`了，参考下图：
     ![](https://ws1.sinaimg.cn/large/006qRazegy1fibactm2csj30x80f2dhn.jpg)
-- 4.为了您的数据安全，请填写`应用`>`设置`>`安全设置`中的`Web 安全域名`，如下图：
+4. 为了您的数据安全，请填写`应用`>`设置`>`安全设置`中的`Web 安全域名`，如下图：
     ![](https://ws1.sinaimg.cn/large/006qRazegy1fiba67warvj30re0k5abv.jpg)
 
 ## 页面中的设置
@@ -75,21 +75,21 @@ valine:
 打开`/themes/next/layout/_partials/comments.swig`，整个文件修改为：
 ```
 {% if page.comments %}
-  <div class="comments" id="comments">
-      {% if (theme.valine and theme.valine.enable)%}
-        <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-        <script src='/lib/Valine.min.js'></script>
-        <script>
-            new Valine({
-                av: AV,
-                el: '.comments' ,
-                app_id: '{{ theme.valine.appId }}',
-                app_key: '{{ theme.valine.appKey }}',
-                placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!'
-            });
-        </script>
-      {% endif %}
-  </div>
+  <div class="comments" id="comments"></div>
+    {% if (theme.valine and theme.valine.enable)%}
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src='/lib/Valine.min.js'></script>
+    <script>
+        new Valine({
+            av: AV,
+            el: '.comments' ,
+            verify: true,
+            app_id: '{{ theme.valine.appId }}',
+            app_key: '{{ theme.valine.appKey }}',
+            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!'
+        });
+    </script>
+    {% endif %}
 {% endif %}
 ```
 > **注**：我引入的`Valine`路径为：`/lib/Valine.min.js`，是已将文件[Valine.min.js](https://raw.githubusercontent.com/xCss/Valine/master/dist/Valine.min.js)放到了目录`/themes/next/source/lib/`下。
@@ -98,7 +98,7 @@ valine:
 ![](https://ws1.sinaimg.cn/large/006qRazegy1fiba80u6lrj30mg09hjrf.jpg)
 
 
-## 评论数据管理
+# 评论数据管理
 插播一下，关于评论数据管理，请自行登录`Leancloud`应用管理。
 具体步骤：`登录`>选择你创建的`应用`>`存储`>选择Class`Comment`，然后就可以尽情的发挥你的权利啦(～￣▽￣)～ 
 ![](https://ws1.sinaimg.cn/large/006qRazegy1fibb4pbvv4j31820iqjw0.jpg)
