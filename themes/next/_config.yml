@@ -117,12 +117,13 @@ social_icons:
 # Blog rolls
 links_title: Friends
 #links_layout: block
-#links_layout: inline
+links_layout: inline
 links:  
   葛豪武: https://www.gehaowu.com
   QistChan: https://qistchan.com
   nApolin: https://napolin.cn
   屠城: https://www.haomwei.com
+  时光疯子: http://www.timedifferent.com
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
@@ -203,10 +204,10 @@ post_meta:
 # Post wordcount display settings
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
-  item_text: true
-  wordcount: true
-  min2read: true
-  separated_meta: true
+  item_text: false
+  wordcount: false
+  min2read: false
+  separated_meta: false
 
 # Wechat Subscriber
 #wechat_subscriber:
