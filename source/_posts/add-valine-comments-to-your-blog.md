@@ -58,8 +58,10 @@ categories: 学习笔记
 看吧，我是不是没说大话(`_(:з」∠)_一本正经的胡说八道`)。
 
 # Hexo 中的解决方案
+>  **注**：**目前多款`Hexo`主题已内置`Valine`评论系统，已无需手动修改文件了**
+
 我知道，上面的东西都不是你们想要的，而你们真正想要的是在这里吧(｡･ω･｡)，来来来，老司机带你们上车。
-> **注**：该解决方案基于Hexo主题--[NexT.Pisces](https://github.com/iissnan/hexo-theme-next)
+> **注**：<del>该解决方案基于Hexo主题--[NexT.Pisces](https://github.com/iissnan/hexo-theme-next)</del>。
 
 ## 配置`_config.yml`
 主题目录下的`/themes/next/_config.yml`中添加：
