@@ -176,6 +176,15 @@
                   <span id="url::{{ post.permalink }}" class="cy_cmt_count" data-xid="{{ post.path }}" itemprop="commentsCount" ></span>
                 </a>
               {% endif %}
+            {% elseif theme.valine.enable and theme.valine.appid and theme.valine.appkey %}
+              <span class="post-comments-count">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-comment-o"></i>
+              </span>
+              <a href="{{ url_for(post.path) }}#comments" itemprop="discussionUrl">
+                <span class="valine-comment-count" data-xid="{{ url_for(post.path) }}" itemprop="commentsCount"></span>
+              </a>
             {% endif %}
           {% endif %}
 

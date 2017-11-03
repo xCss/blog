@@ -29,7 +29,7 @@
     {% elseif theme.changyan.appid and theme.changyan.appkey %}
       <div id="SOHUCS"></div>
     {% elseif theme.valine.appid and theme.valine.appkey %}
-      <div id="vcomments"></div>
+      <div id="vcomment"></div>
     {% endif %}
   </div>
 {% endif %}
