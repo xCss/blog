@@ -7,7 +7,7 @@ tags:
     - Minimalist
 categories: 学习笔记
 ---
-[![Valine](https://ws1.sinaimg.cn/large/006qRazegy1flcucgbhmuj30sf0o3mxy.jpg)](https://Valine.js.org)
+![Valine](https://ws1.sinaimg.cn/large/006qRazegy1flcucgbhmuj30sf0o3mxy.jpg)
 
 > [Valine](https://Valine.js.org) - 一款极简的`无后端`评论系统.
 
