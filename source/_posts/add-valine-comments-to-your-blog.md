@@ -64,23 +64,8 @@ categories: 学习笔记
 ![](https://ws1.sinaimg.cn/large/006qRazegy1fibb4pbvv4j31820iqjw0.jpg)
 
 
-------------------------------------------------------------------
-
-# 关于删除/修改权限问题的说明
-由于之前没有完读`Leancloud`的文档，造成了之前的数据可以通过终端删除。
-v2网友[@xqin](https://www.v2ex.com/member/xqin)在帖子[Valine--一款基于Leancloud的极简风评论系统](https://www.v2ex.com/t/381243#reply18)中已经测试过，测试过程如下图：
-![](https://ws1.sinaimg.cn/large/006qRazegy1fidq808b8pj30n908jq3g.jpg)
-
-最新版本[(v1.1.3)的Valine](https://github.com/xCss/Valine/releases)已经修复了这个问题，请正在用此款评论系统的朋友，尽快更新到最新版本。
-
-对于`leancloud`中`已经存在`的数据，做如下操作可防止恶意的终端删除：
-`登录Leancloud`>选择你存评论的应用>选择`Comment`Class>对里面的每行数据中的`ACL列`进行`编辑`，勾选`所有用户--读`>`设置`。如下图：
-![](https://ws1.sinaimg.cn/large/006qRazegy1fidqekp40yj30hn0evgm8.jpg)
-
-**请务必尽快更新到最新版本，谢谢！**
-
 -----------------------------------------  
-## 更多配置信息请参考：https://valine.js.org
+## 更多配置信息请移步：https://valine.js.org
 ----------------------------------------  
 
 --EOF--
