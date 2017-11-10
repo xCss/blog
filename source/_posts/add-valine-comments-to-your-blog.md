@@ -7,13 +7,14 @@ tags:
     - Minimalist
 categories: 学习笔记
 ---
-![](https://ws1.sinaimg.cn/large/006qRazegy1fib6v4ktc2j318e0p1myf.jpg)
-> [Valine](https://github.com/xCss/Valine) - 一款极简的评论系统
+[![Valine](https://ws1.sinaimg.cn/large/006qRazegy1flcucgbhmuj30sf0o3mxy.jpg)](https://Valine.js.org)
+
+> [Valine](https://Valine.js.org) - 一款极简的`无后端`评论系统.
 
 2017年6月1日，在你等超龄儿童欢度节日的时候，多说躺下了。
 2017年8月1日，不甘寂寞的网易云跟帖也跟多说随风而去了。
 
-2017年8月7日，一款基于`Leancloud`的极简风评论系统诞生：[Valine](https://github.com/xCss/Valine)。
+2017年8月7日，一款基于`Leancloud`的极简风评论系统诞生：[Valine](https://Valine.js.org)。
 
 <!-- more -->
 
@@ -77,6 +78,10 @@ v2网友[@xqin](https://www.v2ex.com/member/xqin)在帖子[Valine--一款基于L
 ![](https://ws1.sinaimg.cn/large/006qRazegy1fidqekp40yj30hn0evgm8.jpg)
 
 **请务必尽快更新到最新版本，谢谢！**
+
+-----------------------------------------  
+## 更多配置信息请参考：https://valine.js.org
+----------------------------------------  
 
 --EOF--
 
