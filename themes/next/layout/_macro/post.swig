@@ -319,6 +319,10 @@
         {{ post.content }}
       {% endif  %}
     </div>
+    
+    {% if theme.ad and theme.ad.enable and not is_index %}
+      {% include 'recommend.swig' %}
+    {% endif %}
     {#####################}
     {### END POST BODY ###}
     {#####################}
@@ -340,6 +344,7 @@
         {% include 'post-copyright.swig' with { post: post } %}
       </div>
     {% endif %}
+
 
     <footer class="post-footer">
       {% if post.tags and post.tags.length and not is_index %}

@@ -1,6 +1,8 @@
 # ---------------------------------------------------------------
 # Site Information Settings
 # ---------------------------------------------------------------
+ad: 
+  enable: true
 
 # Put your favicon.ico into `hexo-site/source/` directory.
 favicon: /images/avatar.jpg
