@@ -12,7 +12,7 @@ categories: 学习笔记
 
 > 可能不定时更新。
 
-<!-- more -->
+ 
 # 配置自动换行
 ```bash
 git config --global core.autocrlf input # 提交时自动将换行符转成lf

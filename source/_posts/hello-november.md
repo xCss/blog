@@ -13,7 +13,7 @@ categories: 学习笔记
  
 好久没写文章了(好像写过很多似的。。。)，最近在业余时间着手写了两个项目：[`JsonBird`](http://bird.ioliu.cn) 和 [`Bing 壁纸`](http://bing.ioliu.cn)。
 
-<!--more-->
+ 
 两个项目都是用 [`Node.js`](https://nodejs.org) 写的，基于 [`Express`](http://expressjs.com) 框架。
 ## [`JsonBird`](http://bird.ioliu.cn) 目前实现了以下功能：
  - [✔] [代理远程数据接口](https://bird.ioliu.cn/v1)，使其支持`跨域`和`JSONP`

@@ -5,11 +5,11 @@ tags:
     - Guide
 categories: 学习笔记
 ---
-![](https://ws4.sinaimg.cn/large/0060lm7Tgw1f456ew31f7j30jg05kdfu.jpg)
+![](https://tva2.sinaimg.com/large/0060lm7Tgw1f456ew31f7j30jg05kdfu.jpg)
 # Markdown
 A markdown example shows how to write a markdown file. This document integrates core syntax and extensions (GMF).
 
-<!-- more -->
+ 
 ## Block Elements
 ### Paragraphs and Line Breaks
 #### Paragraphs

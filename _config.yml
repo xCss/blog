@@ -6,12 +6,21 @@
 title: 云淡风轻
 subtitle: 一个安静的角落
 description: 隐约雷鸣，阴霾天空，但盼风雨来，能留你在此
+keyword: "ioliu.cn,一个安静的角落,云淡风轻,编程,学习,JavaScript技巧,简单生活"
 author: 云淡风轻
 beian: 粤ICP备15050037号
-language: zh-Hans
+language: zh-CN
 timezone:
 since: 2013
 github: https:github.com/xCss
+
+
+
+# Build settings
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+sidebar-avatar: images/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -19,6 +28,10 @@ url: https://ioliu.cn
 root: /
 permalink: :year/:title/
 permalink_defaults:
+
+search:
+  path: search.json
+  field: post
 
 # Directory
 source_dir: source
@@ -33,21 +46,32 @@ skip_render:
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
-titlecase: true # Transform title into titlecase
+titlecase: false  # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight: 
     enable: true
     line_number: true
+    auto_detect: true
 
 # Category & Tag
 default_category: uncategorized
 category_map: category
 tag_map: tags
+
+# 自动生成分类
+category_generator:
+  per_page: 20
+  order_by: -date
+
+# 自动生成Tag
+tag_generator:
+  per_page: 20
+  order_by: -date
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -64,7 +88,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: next
+theme: pure
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -75,9 +99,40 @@ plugin:
 - hexo-generator-feed
 - hexo-generator-sitemap
 
+# markdown_it_plus:
+#   highlight: true
+#   html: true
+#   xhtmlOut: true
+#   breaks: true
+#   langPrefix:
+#   linkify: true
+#   typographer:
+#   quotes: “”‘’
+#   plugins:
+#     - plugin:
+#         name: markdown-it-katex
+#         enable: true
+#     - plugin:
+#         name: markdown-it-mark
+#         enable: false
 
 
+# hexo-neat
 neat_enable: true
+neat_html:
+  enable: true
+  exclude:  
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html

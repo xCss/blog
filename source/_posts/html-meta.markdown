@@ -24,7 +24,7 @@ categories: 学习笔记
 | http-equiv | content-type / expire / refresh / set-cookie  |  把content属性关联到HTTP头部。|
 | name | author / description / keywords / generator / revised / others | 把 content 属性关联到一个名称。|
 | content | some text | 定义用于翻译 content 属性值的格式。| 
-<!-- more -->
+ 
 
 ## SEO优化 
 
@@ -104,7 +104,7 @@ categories: 学习笔记
 ```
 <meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL">
 ```
-![看图片顶部](https://ws1.sinaimg.cn/large/006qRazegw1f40yqh6luyj306y0cd0t8.jpg) 
+![看图片顶部](https://tva2.sinaimg.com/large/006qRazegw1f40yqh6luyj306y0cd0t8.jpg) 
  - ****其他****  
     [参考文档](http://fex.baidu.com/blog/2014/10/html-head-tags )
 ```

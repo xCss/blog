@@ -1,4 +1,5 @@
-type: categories
-title: '所有分类'
+---
+title: 分类
+layout: categories
 comments: false
 ---

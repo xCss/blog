@@ -7,7 +7,7 @@ tags:
 categories: 学习笔记
 ---
 
-![](https://ws4.sinaimg.cn/large/006qRazegw1f41ptt98crj30jg05kmx5.jpg)
+![](https://tva2.sinaimg.com/large/006qRazegw1f41ptt98crj30jg05kmx5.jpg)
 
 ## 类型
 **原始值**:相当于传值(JavaScript对象都提供了字面量)，使用字面量创建对象。  
@@ -23,7 +23,7 @@ var foo = 1,
 bar = 9;
 console.log(foo, bar); // => 1, 9
 ```
-<!-- more -->
+ 
 **复杂类型**:相当于传引用  
   - `object`
   - `array`

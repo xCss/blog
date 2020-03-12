@@ -10,12 +10,12 @@ author: "@johnnyb"
 social: https://www.codementor.io/johnnyb
 ---
 
-![](https://ws4.sinaimg.cn/large/006qRazegw1f7f8plb62gj30p00cimxw.jpg)
+![](https://tva2.sinaimg.com/large/006qRazegw1f7f8plb62gj30p00cimxw.jpg)
 
 每天学习新事物是成为一个伟大的人的一部分。而对开发者而言，持续不断学习新的东西是我们工作中的一部分，无论这些东西是否是你主动想学的。
 
 在本教程中，我会指出一些重要的 JavaScript 最佳实践，因此你不必觉得学习它是条艰难的路。准备提升你的代码吧！
-<!--more-->
+ 
 ## 避免全局污染(Avoid polluting the global scope)
 声明变量(`Declaring variables`)是很有趣的。有时候，你可能声明了全局变量，即使你不想声明它。在如今的浏览器中，全局变量存储在`window`对象中。因此，有很多有趣的东西发生在那里，你可能会重写默认值。
 让我们假设你有一个HTML文件，其中包含一个`<script>`标签(或者在加载的 JavaScript 文件中包含):
@@ -99,7 +99,7 @@ foo.bar.bar.bar
 // → foo
 ```
 或者，去展现你对JavaScript 的爱，你可以做得更好：
-![](https://ws1.sinaimg.cn/large/006qRazegw1f7fbn6xey4j30di0ca409.jpg)
+![](https://tva2.sinaimg.com/large/006qRazegw1f7fbn6xey4j30di0ca409.jpg)
 Yes，你可以无限的扩展这个对象(大概直到你的浏览器崩溃).
 
 ## 使用严格模式(`use strict`)

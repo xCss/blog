@@ -6,7 +6,7 @@ tags:
     - "媒体查询"
 categories: 学习笔记
 ---
-![](https://ws4.sinaimg.cn/large/0060lm7Tgw1f456ew2yobj30jg05kwee.jpg)
+![](https://tva2.sinaimg.com/large/0060lm7Tgw1f456ew2yobj30jg05kwee.jpg)
 
 
 
@@ -18,7 +18,7 @@ categories: 学习笔记
 
 在这篇文章中我将分享一些到目前为止我收集到的常用媒体查询。在一些示例中，我可能是错误的，但是不用担心，因为我针对这个开通了评论功能。我把它们分为`显示器媒体查询`、`智能手机媒体查询`和`平板媒体查询` 
 
-<!-- more -->
+ 
 
 # 显示器媒体查询 
 

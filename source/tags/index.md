@@ -1,4 +1,5 @@
-type: tags
-title: "All Tags"
+---
+title: 标签
+layout: tags
 comments: false
 ---

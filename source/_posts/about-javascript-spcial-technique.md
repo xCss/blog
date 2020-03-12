@@ -8,7 +8,7 @@ tags:
      - 前端
 categories: 学习笔记
 ---
-![](https://ws4.sinaimg.cn/large/006qRazegw1f41ptt98crj30jg05kmx5.jpg)
+![](https://tva2.sinaimg.com/large/006qRazegw1f41ptt98crj30jg05kmx5.jpg)
 <blockquote class="blockquote-center">这里记录一下以前学习各种书籍和文章里边出现的JS的小技巧，分享给大家，也供自己查阅，同时感谢那些发现创造和分享这些技巧的前辈和大牛们。</blockquote>
 ## 遍历一个obj的属性到数组  
 ```
@@ -20,7 +20,6 @@ function getAttr(obj){
 console.log(getAttr({'name':'zhangsan','age':'20'}));//输出:['name','age']
 
 ```
-<!-- more -->
 乍一看可能比较蒙，不过仔细分析还是不难理解的。常见用法是`for(var key in obj)`，这里`key`初始也是`undefined`的，`a[a.length]`整体也是`undefined`，所以二者其实是等价的。  
 在`for`循环中，`obj`的属性会依次赋值给`key`，同样，也依次赋值给`a[a.length]`，这里`length`一直在变，就巧妙地挨个赋值给数组的每一个元素了。
 

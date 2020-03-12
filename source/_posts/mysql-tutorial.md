@@ -5,10 +5,10 @@ tags:
     - 数据库
 categories: 学习笔记
 ---
-![](https://ws1.sinaimg.cn/large/006qRazegy1fdwz005otpg30bx0c8my5.gif)
+![](https://tva2.sinaimg.com/large/006qRazegy1fdwz005otpg30bx0c8my5.gif)
 
 最近准备找时间把[bing壁纸](http://bing.ioliu.cn)项目重构，但由于虚拟主机快要过期了，所以目前的首要任务是将数据库从[阿里云](/go/aliyun)的虚拟主机转移到我自己的服务器上。
-<!--more-->
+ 
 
 因为多年前学过SQLServer、Oracle、MySql等数据库，但许久未用，技艺生疏，所以这里是不算初体验的初体验。
 
@@ -24,7 +24,7 @@ categories: 学习笔记
 $ apt-get install mysql-server mysql-client
 ```
 其中mysql-server是服务器程序，mysql-client是客户端程序。安装过程中会有如下提示，需要设置mysql数据库密码；输入要设置的密码后，回车即可继续安装。
-![](https://ws1.sinaimg.cn/large/006qRazegy1fdwzjbm227j30in0bmwhm.jpg)
+![](https://tva2.sinaimg.com/large/006qRazegy1fdwzjbm227j30in0bmwhm.jpg)
 > 如果出现`Unable to locate package mysql-server`等错误，请先执行`apt-get update`后重试。
 
 # 登录

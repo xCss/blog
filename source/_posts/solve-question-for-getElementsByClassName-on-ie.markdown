@@ -8,7 +8,7 @@ tags:
 categories: 学习笔记
 ---
 
-![](https://ws4.sinaimg.cn/large/006qRazegw1f41ptt98crj30jg05kmx5.jpg)
+![](https://tva2.sinaimg.com/large/006qRazegw1f41ptt98crj30jg05kmx5.jpg)
 
 最近遇到一个`document.getElementsByClassName`在IE中的兼容性问题，有兼容性问题的代码如下：
 ```js
@@ -17,10 +17,10 @@ window.onload = function(){
     alert(checkInput.length);
 }
 ```
-<!-- more -->
+ 
 
 在IE的低版本中会出现如图所示的问题：  
-![error](https://ws3.sinaimg.cn/large/0060lm7Tgw1f4a25f9llsj30ha04s0tt.jpg)  
+![error](https://tva2.sinaimg.com/large/0060lm7Tgw1f4a25f9llsj30ha04s0tt.jpg)  
 参考了网上的一些代码与视频，解决代码如下：    
 
 ```js

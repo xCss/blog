@@ -21,7 +21,7 @@ typeof 0;   //"number"
 typeof function(){};//"function"
 typeof true;//"boolean"
 ```
-<!--more-->
+ 
 由上面代码可以看出，数组也是对象，所以`typeof`不是我们理想中的解决方案。
 
 当然，有的童鞋可能会说，由于`length`是`Array`特有的属性(非绝对),那是不是可以用`length`+`typeof`来判断。

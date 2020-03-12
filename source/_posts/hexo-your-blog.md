@@ -6,10 +6,10 @@ tags:
 categories: 学习笔记
 ---
 
-![](https://ws4.sinaimg.cn/large/0060lm7Tgw1f456ewdqd9j30jg05k74c.jpg)
+![](https://tva2.sinaimg.com/large/0060lm7Tgw1f456ewdqd9j30jg05k74c.jpg)
 
 今天把博客移到了`Hexo`,感觉蛮不错的 ^_^ .
-<!-- more -->
+ 
 ## 简介 
 [hexo](https://github.com/hexojs/hexo) 是一款基于Node.js的静态博客框架。目前在GitHub上已有4k+ star 和 700+ fork ([官网](http://hexo.io/))。  
 是一个快速、简洁且高效的博客框架。`Hexo` 使用 `Markdown`（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。

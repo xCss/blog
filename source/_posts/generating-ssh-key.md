@@ -6,10 +6,10 @@ tags:
     - "免密码"
 categories: 学习笔记
 ---
-![](https://ws3.sinaimg.cn/large/0060lm7Tgw1f456ew154kj30jg05k745.jpg)
+![](https://tva2.sinaimg.com/large/0060lm7Tgw1f456ew154kj30jg05k745.jpg)
 之前上传文件到 GitHub 的时候，一直都是用的账号密码登录，每次提交都弹个窗体出来，感觉烦死了。。。今天有空，就来捣鼓下 `SSH Key`。
 
-<!-- more -->
+ 
 
 ### Step1. 检查是否已经存在 SSH Key 
 运行 `Git Bush` 客户端，执行以下代码： 

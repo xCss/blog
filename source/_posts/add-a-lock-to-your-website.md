@@ -6,11 +6,9 @@ tags:
     - cerbot
 categories: 学习笔记
 ---
-![](https://ws1.sinaimg.cn/large/006qRazegy1fdunpet5toj30t50d7n3d.jpg)
+![](https://tva2.sinaimg.com/large/006qRazegy1fdunpet5toj30t50d7n3d.jpg)
 
 今天抽时间将所有的网站[SSL证书](https://zh.wikipedia.org/wiki/%E5%82%B3%E8%BC%B8%E5%B1%A4%E5%AE%89%E5%85%A8%E5%8D%94%E8%AD%B0)都更新了成 [Let's Encrypt](https://letsencrypt.org/) 了。采用了[certbot](https://certbot.eff.org) 这样的自动化工具，配置管理起来非常容易(一本正经的胡说八道)，这里将对整个体验过程做个详细记录。
-
-<!-- more -->
 
 
 # 了解 Let’s Encrypt
@@ -19,7 +17,7 @@ categories: 学习笔记
 [Let's Encrypt](https://letsencrypt.org/) 是一个2015年末推出的数字证书认证机构，将通过旨在消除当前手动创建和安装证书的复杂过程的自动化流程，为安全网站提供免费的SSL/TLS证书。
 
 # 获取 Let's Encrypt
-![](https://ws1.sinaimg.cn/large/006qRazegy1fduo29ztewj30mb0bxt9d.jpg)
+![](https://tva2.sinaimg.com/large/006qRazegy1fduo29ztewj30mb0bxt9d.jpg)
 Let's Encrypt 证书生成不需要手动进行，官方推荐 [Certbot](https://certbot.eff.org) 这套自动化工具来实现。4步轻松搞定：
 - 下载安装 certbot (Let’s Encrypt项目的自动化工具)
 - 获得SSL证书
@@ -60,7 +58,7 @@ $ sudo certbot certonly --webroot -w /var/www/example -d example.com -d www.exam
 - `-d`:指定要生成证书的域名，如果你想多个域名保存在一个证书里(最多四个)(如`example.com`、`www.example.com`、`thing.is`、`m.thing.is`)，请确保使用适当的webroot路径和域名替换命令中的相对应部分。
 
 接下来，同意加密订阅协议：
-![](https://ws1.sinaimg.cn/large/006qRazegy1fdup0jojf7j30fv0bdwf1.jpg)
+![](https://tva2.sinaimg.com/large/006qRazegy1fdup0jojf7j30fv0bdwf1.jpg)
 
 如果一切顺利，你应该看到一个类似下面的输出消息：
 >**IMPORTANT NOTES:**
@@ -86,7 +84,7 @@ fullchain.pem #server cert + intermediates
 ```
 ## 3.修改Nginx配置文件
 到这里已经成功一大半了，只需要配置 Nginx 支持刚刚生成的证书。最佳实践可以参考[Mozilla SSL Configuration Generator](https://mozilla.github.io/server-side-tls/ssl-config-generator/)。
-![](https://ws1.sinaimg.cn/large/006qRazegy1fdupi6lhxmj30oz0lon0q.jpg)
+![](https://tva2.sinaimg.com/large/006qRazegy1fdupi6lhxmj30oz0lon0q.jpg)
 注意去掉HSTS的勾(勾上会强制https，并且很难消除后续影响)。
 
 请根据自己的服务配置修改和添加内容，**重点只需要关注6行**：
@@ -110,7 +108,7 @@ $ sudo mkdir /etc/nginx/ssl
 $ sudo openssl dhparam -out /etc/nginx/ssl/dhparam.pem 2048
 ```
 Nginx 配置完成后重启，用浏览器测试是否一切正常。
-![](https://ws1.sinaimg.cn/large/006qRazegy1fdupmoluqij306y035glg.jpg)
+![](https://tva2.sinaimg.com/large/006qRazegy1fdupmoluqij306y035glg.jpg)
 
 ## 4.续订
 `Let's Encrypt`证书有效期只有3个月，所以，需要定时renew。我将使用`corntab`来执行renew命令:
@@ -125,7 +123,7 @@ $ sudo crontab -e
 
 # 测试你的网站 SSL 安全性
 [Qualys SSL Labs](https://www.ssllabs.com/ssltest/index.html) 提供了全面的 SSL 安全性测试，填写你的网站域名，给自己的 HTTPS 配置打个分。
-![](https://ws1.sinaimg.cn/large/006qRazegy1fdupydm71rj30ts0fkt9s.jpg)
+![](https://tva2.sinaimg.com/large/006qRazegy1fdupydm71rj30ts0fkt9s.jpg)
 这意味着你网站的HTTPS已经启用成功啦，为自己鼓个掌。 (๑•̀ㅂ•́)و✧。
 
 ------------------------------------------

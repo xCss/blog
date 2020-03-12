@@ -7,11 +7,11 @@ tags:
     - 插件
 categories: 应用软件
 ---
-![](https://ws2.sinaimg.cn/large/0060lm7Tgw1f456evwn23j30jg05kglq.jpg)
+![](https://tva2.sinaimg.com/large/0060lm7Tgw1f456evwn23j30jg05kglq.jpg)
 
 
 最近迷上了一款文本编辑器叫`Sublime Text`，[官网](http://www.sublimetext.com/ "Sublime Text 官网")，给人的第一感觉是轻，而且里面的各种自定义配置用起来真的是如鱼得水。写这篇文章主要是防止以后到处寻找而做个备份。
-<!-- more -->
+ 
 ### `Sublime Text`的下载安装
 进入`Sublime Text`的[官网](http://www.sublimetext.com/ "Sublime Text 官网")，下载`Sublime Text`，有2和3版本，请根据自己爱好进行下载安装。
 
