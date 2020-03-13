@@ -1,0 +1,57 @@
+.repo-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.repo {
+  position: relative;
+  list-style-type: none;
+  border: 1px solid $border-color;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.repo-title {
+  padding: 0 15px;
+  margin: 15px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.repo-body {
+  display: -webkit-box;
+  padding: 0 15px;
+  margin: 0 0 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-height: 1.5em;
+  height: 3em;
+  word-break: break-all !important;
+  word-wrap: break-word !important;
+}
+
+.repo-image {
+  position: relative;
+  display: table;
+  width: 101%;
+  height: 3px;
+  margin: -1px -1px 15px;
+  background-color: #666;
+}
+
+.repo-meta {
+  padding: 0 15px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  color: #777;
+  font-size: 12px;
+  text-align: right;
+  @include clearfix;
+  .meta {
+    + .meta {
+      margin-left: 15px;
+    }
+  }
+}

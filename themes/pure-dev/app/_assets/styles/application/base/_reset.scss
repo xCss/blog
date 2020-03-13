@@ -1,0 +1,94 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+
+// html {
+//   -webkit-box-sizing: border-box;
+//   box-sizing: border-box;
+//   -webkit-text-size-adjust: 100%;
+//   -ms-text-size-adjust: 100%;
+//   -ms-overflow-style: scrollbar;
+//   -webkit-tap-highlight-color: transparent;
+//   overflow-y: scroll;
+// }
+
+body {
+  padding-right: 0!important;
+  font-family: $font-family-sans-serif;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $text-color;
+  background-color: $body-bg;
+  @media (max-width: $screen-xs-max) {
+    padding-top: 53px;
+  }
+}
+
+a {
+  color: $link-dark-color;
+  text-decoration: none;
+  &:focus,
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: none;
+  }
+  &.active {
+    color: $link-hover-color;
+  }
+}
+
+.active {
+  > a {
+    color: $link-hover-color;
+  }
+}
+
+input,
+button,
+select,
+textarea,
+.btn {
+  outline: none!important;
+  &:focus,
+  &:hover,
+  &:active {
+    outline: none!important;
+  }
+}
+
+/*------------------ Fluidity response ------------------------------*/
+
+img,
+canvas,
+iframe,
+video,
+svg {
+  max-width: 100%;
+  height: auto
+}
+
+// img {
+//   position: relative;
+// }
+// img:before {
+//   position: absolute;
+//   content: "回";
+//   // content: "We're sorry, the image below is broken :(";
+//   display: block;
+//   width: 100%;
+//   text-align: center;
+//   color: #ccc;
+// }
+// img:after {
+//   content: "(url: " attr(src) ")";
+//   display: block;
+//   font-size: 12px
+// }

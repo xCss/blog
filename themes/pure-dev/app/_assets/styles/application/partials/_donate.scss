@@ -1,0 +1,86 @@
+.btn-donate {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -25px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  z-index: 99;
+  &:focus,
+  &:hover,
+  &:active {
+    border-color: transparent!important;
+    outline: none!important;
+  }
+  &.btn-fancy {
+    background-color: transparent;
+    span {
+      width: 50px;
+      height: 50px;
+      padding: 0;
+    }
+  }
+}
+
+.donate {
+  overflow: hidden
+}
+
+.donate-box {
+  text-align: center;
+  padding-top: 30px;
+  // padding-bottom: 30px;
+  .donate-head {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    line-height: 60px;
+    color: #a3a3a3;
+    font-size: 16px;
+    position: relative;
+    &:before,
+    &:after {
+      font-family: Arial, Helvetica, sans-serif;
+      background: none;
+      width: 0px;
+      height: 0px;
+      font-style: normal;
+      color: #eee;
+      font-size: 100px;
+      position: absolute;
+      top: 15px;
+    }
+    &:before {
+      content: '\201c';
+      left: 30px;
+    }
+    &:after {
+      content: '\201d';
+      right: 70px;
+    }
+  }
+  .donate-footer {
+    padding-top: 35px;
+    @media (min-width: $screen-xs-max) {
+      margin: 0 -15px -16px -15px;
+    }
+  }
+  .donate-payimg {
+    display: inline-block;
+    padding: 10px;
+    border: 6px solid #ea5f00;
+    margin: 0 auto;
+    border-radius: 3px;
+    img {
+      display: block;
+      text-align: center;
+      width: 140px;
+      height: 140px;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+<footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+	<%- partial('_common/social', null, {cache: !config.relative_link}) %>
+    <div class="copyright">
+    	<% if(theme.site.copyright) { %>
+        &copy; <%= config.since %>-<%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>
+        <% } %>
+        <div class="publishby">
+        	<%= __('copyright.theme_by') %> <a href="https://github.com/cofess" target="_blank"> cofess </a><%= __('copyright.base_on') %> <a href="https://github.com/cofess/hexo-theme-pure" target="_blank">pure</a>.
+        </div>
+        <% if(config.beian) { %>
+        <a href="http://www.miitbeian.gov.cn/" target="_blank" class="publishby">粤ICP备15050037号</a>
+        <% } %>
+    </div>
+</footer>

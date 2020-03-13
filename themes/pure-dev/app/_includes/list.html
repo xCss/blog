@@ -1,0 +1,34 @@
+<div class="content article-list">
+  {% for i in range(12) -%}
+  <article class="article article-type-post">
+    <h3 class="article-title"><a class="article-link" href="post.html">Heading</a></h3>
+    <p class="article-entry text-muted">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+    <p class="article-meta">
+      <span class="article-date"><i class="icon icon-calendar-check"></i> 2017-05-23 </span>
+      <span class="article-category">
+        <i class="icon icon-folder"></i>
+        <a class="category-link" href="#">Hexo</a>
+      </span>
+      <span class="article-tag">
+        <i class="icon icon-tags"></i>
+        <a href="#" class="tag">tag1 </a>
+        <a href="#" class="tag">tag2 </a>
+        <a href="#" class="tag">tag3 </a>
+      </span>
+      <span class="article-comment">
+        <i class="icon icon-comment"></i>
+        <a href="#" class="tag">comments</a>
+      </span>
+    </p>
+  </article>
+  {%- endfor %}
+</div>
+<nav class="bar bar-footer clearfix" data-stick-bottom>
+  <div class="bar-inner">
+  <ul class="pager pull-left">
+    <li class="prev"><a href="#"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a></li>
+    <li class="next"><a href="#"><span>Newer&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a></li>
+  </ul>
+  <div class="total-article bar-right">Total 30 articles</div>
+  </div>
+</nav>

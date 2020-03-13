@@ -1,0 +1,51 @@
+/*
+ * Component: table
+ * css like github
+ * ----------------
+ */
+
+table {
+  border: 1px solid $border-color;
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      > th,
+      > td {
+        border: 1px solid $border-color;
+      }
+    }
+  }
+  > tbody > tr:nth-of-type(odd) {
+    background-color: #f8f8f8;
+  }
+  > tbody > tr:hover {
+    background-color: #fbfbfb;
+  }
+}
+
+table {
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  margin: 10px 0;
+  // Cells
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      > th,
+      > td {
+        padding: 6px 13px;
+      }
+    }
+  }
+  // Account for multiple tbody instances
+  > tbody + tbody {
+    border-top: 2px solid $border-color;
+  }
+  // Nesting
+  table {
+    background-color: $body-bg;
+  }
+}
