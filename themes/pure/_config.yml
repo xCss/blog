@@ -230,7 +230,9 @@ profile:
     必应壁纸:
       link: http://bing.ioliu.cn
       date: 2016
+    "Valine 评论系统": 
+      link: https://valine.js.org
+      date: 2017
   # My Personal Projects
   projects:
-    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
-    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
+    xCss/Valine: https://github.com/xCss/valine
