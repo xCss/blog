@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://ioliu.cn/2016/commonly-used-media-queries/</loc>
+    <loc>https://ioliu.cn/2015/the-front-end-javascript-specification/</loc>
     
     <lastmod>2024-03-22</lastmod>
     
@@ -38,7 +38,16 @@
   </url>
   
   <url>
-    <loc>https://ioliu.cn/2015/generating-ssh-key/</loc>
+    <loc>https://ioliu.cn/about/index.html</loc>
+    
+    <lastmod>2024-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioliu.cn/books/index.html</loc>
     
     <lastmod>2024-03-22</lastmod>
     
@@ -65,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://ioliu.cn/2015/the-front-end-javascript-specification/</loc>
+    <loc>https://ioliu.cn/2016/commonly-used-media-queries/</loc>
     
     <lastmod>2024-03-22</lastmod>
     
@@ -74,16 +83,7 @@
   </url>
   
   <url>
-    <loc>https://ioliu.cn/about/index.html</loc>
-    
-    <lastmod>2024-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ioliu.cn/books/index.html</loc>
+    <loc>https://ioliu.cn/2015/generating-ssh-key/</loc>
     
     <lastmod>2024-03-22</lastmod>
     

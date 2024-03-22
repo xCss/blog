@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ioliu.cn/2016/commonly-used-media-queries/</loc>
-    <lastmod>2024-03-22</lastmod>
-  </url>
-  <url>
-    <loc>https://ioliu.cn/2015/generating-ssh-key/</loc>
+    <loc>https://ioliu.cn/2015/the-front-end-javascript-specification/</loc>
     <lastmod>2024-03-22</lastmod>
   </url>
   <url>
@@ -17,7 +13,11 @@
     <lastmod>2024-03-22</lastmod>
   </url>
   <url>
-    <loc>https://ioliu.cn/2015/the-front-end-javascript-specification/</loc>
+    <loc>https://ioliu.cn/2016/commonly-used-media-queries/</loc>
+    <lastmod>2024-03-22</lastmod>
+  </url>
+  <url>
+    <loc>https://ioliu.cn/2015/generating-ssh-key/</loc>
     <lastmod>2024-03-22</lastmod>
   </url>
   <url>
