@@ -140,4 +140,4 @@ deploy:
   type: git
   repo: 
     github: git@github.com:xcss/notes.git,master
-    coding: git@git.coding.net:msg/msg,coding-pages
+    # coding: git@git.coding.net:msg/msg,coding-pages
