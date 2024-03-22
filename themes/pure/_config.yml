@@ -163,26 +163,26 @@ pv:
     app_key: # leancloud <AppKey>
         
 # wordcount
-postCount:
-  enable: false
+postCount: 
+  enable: true
   wordcount: true  # 文章字数统计
   min2read: true  # 阅读时长预计 
 
 # Plugins
 plugins: 
-  google_analytics: UA-61934506-1 # enter the tracking ID for your Google Analytics 
-  google_site_verification: fto43W1-4i099gqlMImLOannS1KjzlC5A-a1dnT0iVs # enter Google site verification code
-  baidu_analytics: 2119376191e432c012a0713bcca8a8ea # enter Baidu Analytics hash key
-  tencent_analytics: 
-  
-# Miscellaneous
+  - google_analytics: "UA-61934506-1" # enter the tracking ID for your Google Analytics 
+  - google_site_verification: "fto43W1-4i099gqlMImLOannS1KjzlC5A-a1dnT0iVs" # enter Google site verification code
+  - baidu_analytics: "2119376191e432c012a0713bcca8a8ea" # enter Baidu Analytics hash key
+  - tencent_analytics: 
+
+# Miscellaneous 
 twitter:
 google_plus:
 fb_admins:
 fb_app_id:  
   
-# profile
-profile:
+# profile  
+profile: 
   enabled: true # Whether to show profile bar 
   avatar: /images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
