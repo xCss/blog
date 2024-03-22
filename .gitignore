@@ -336,3 +336,4 @@ src/components.d.ts
 .eslintrc-auto-import.json
 
 # End of https://www.toptal.com/developers/gitignore/api/webstorm+all,svn,git,vuejs,node,yarn,macos,windows
+.deploy_git
