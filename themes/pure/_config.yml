@@ -57,24 +57,24 @@ pagination:
 sidebar: right
 widgets:
   - board  
-  # - category
+  - category
   # - tag
-  # - tagcloud
-  # - archive
+  - tagcloud
+  - archive
   - recent_posts
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
-# - category
-# - tagcloud
-# - archive  
+  - category
+  - tagcloud
+  - archive  
 
 # widget behavior
 archive_type: 'monthly'
 show_count: true
 
 # Fancybox
-fancybox: false
+fancybox: true
 
 # Search
 search:
@@ -168,13 +168,12 @@ postCount:
   wordcount: true  # 文章字数统计
   min2read: true  # 阅读时长预计 
 
-# Plugins
-plugins: 
-  - google_analytics: "UA-61934506-1" # enter the tracking ID for your Google Analytics 
-  - google_site_verification: "fto43W1-4i099gqlMImLOannS1KjzlC5A-a1dnT0iVs" # enter Google site verification code
-  - baidu_analytics: "2119376191e432c012a0713bcca8a8ea" # enter Baidu Analytics hash key
-  - tencent_analytics: 
-  - cf_analytics: 2eb4a0fe57764631afe9f6bcb71d6c35
+analytics:
+  google_analytics: UA-61934506-1 # enter the tracking ID for your Google Analytics 
+  google_site_verification: "fto43W1-4i099gqlMImLOannS1KjzlC5A-a1dnT0iVs" # enter Google site verification code
+  baidu_analytics: 2119376191e432c012a0713bcca8a8ea # enter Baidu Analytics hash key
+  tencent_analytics: 
+  cf_analytics: 2eb4a0fe57764631afe9f6bcb71d6c35
 
 # Miscellaneous 
 twitter:
@@ -183,7 +182,7 @@ fb_admins:
 fb_app_id:  
   
 # profile  
-profile: 
+profile:
   enabled: true # Whether to show profile bar 
   avatar: /images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden

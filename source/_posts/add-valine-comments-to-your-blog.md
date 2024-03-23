@@ -4,7 +4,6 @@ tags:
     - Valine
     - "Comment System"
     - 评论系统
-    - Minimalist
 categories: 学习笔记
 ---
 ![Valine](https://img2.imgtp.com/2024/03/23/WLqYOfWP.png)
