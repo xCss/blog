@@ -3250,12 +3250,12 @@ button.close {
 html[data-dark=true] {
   background-color: #121212!important;
   filter: invert(90%) hue-rotate(180deg) brightness(100%) contrast(100%);
-  -webkit-filter: invert(90%) hue-rotate(180deg) brightness(100%) contrast(100%)
+  -webkit-filter: invert(90%) hue-rotate(180deg) brightness(100%) contrast(100%);
 }
 
 html[data-dark=true] img {
   filter: hue-rotate(180deg) contrast(100%) invert(100%);
-  -webkit-filter: hue-rotate(180deg) contrast(100%) invert(100%)
+  -webkit-filter: hue-rotate(180deg) contrast(100%) invert(100%);
 }
 .darkmode-toggle{cursor: pointer;}
 
@@ -3263,6 +3263,10 @@ html,
 body {
   position: relative;
   overflow-x: hidden;
+  transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
 }
 
 body {
