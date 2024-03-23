@@ -1,7 +1,5 @@
-
-<script src="//cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+<script src="/js/jquery.min.js"></script>
 <script>
-window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 $(function(){
    $(document).off('click', '.darkmode-toggle').on('click', '.darkmode-toggle', function() {
       localStorage.dark = !($('html').attr('data-dark') == 'true');
