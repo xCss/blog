@@ -5,7 +5,7 @@ tags:
     - 数据库
 categories: 学习笔记
 ---
-![](https://tva2.sinaimg.com/large/006qRazegy1fdwz005otpg30bx0c8my5.gif)
+![](https://img2.imgtp.com/2024/03/23/JvTStp0N.gif)
 
 最近准备找时间把[bing壁纸](http://bing.ioliu.cn)项目重构，但由于虚拟主机快要过期了，所以目前的首要任务是将数据库从[阿里云](/go/aliyun)的虚拟主机转移到我自己的服务器上。
  
