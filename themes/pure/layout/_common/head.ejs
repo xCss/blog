@@ -15,6 +15,13 @@
   <meta name="theme-color" content="#000000" />
   <!-- 强制页面在当前窗口以独立页面显示,防止别人在框架里调用页面 -->
   <meta http-equiv="window-target" content="_top" />
+  
+  <script>
+    var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+    var toggle = document.querySelector('.darkmode-toggle');
+    var html = document.querySelector('html');
+    html.setAttribute('data-dark', localStorage.dark || prefersDarkMode.matches);
+  </script>
   <script data-ad-client="ca-pub-3540467103914375" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <% if (theme.plugins.google_site_verification) { %>
   <meta name="google-site-verification" content="<%= theme.plugins.google_site_verification %>" />
