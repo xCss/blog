@@ -6538,6 +6538,11 @@ body.no-sidebar .sidebar {
   font-size: 1.5em;
   border-bottom: 1px solid #f2f2f2;
 }
+.marked-body h3 {
+  padding-bottom: 0.3em;
+  font-size: 1.2em;
+  border-bottom: 1px solid #f2f2f2;
+}
 
 .marked-body a {
   color: #2196f3;
