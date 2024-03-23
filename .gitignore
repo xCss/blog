@@ -340,3 +340,4 @@ src/components.d.ts
 db.json
 public/
 .deploy_git/
+yarn.lock
