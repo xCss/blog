@@ -3247,6 +3247,18 @@ button.close {
   box-sizing: border-box;
 }
 
+html[data-dark=true] {
+  background-color: #121212!important;
+  filter: invert(90%) hue-rotate(180deg) brightness(100%) contrast(100%);
+  -webkit-filter: invert(90%) hue-rotate(180deg) brightness(100%) contrast(100%)
+}
+
+html[data-dark=true] img {
+  filter: hue-rotate(180deg) contrast(100%) invert(100%);
+  -webkit-filter: hue-rotate(180deg) contrast(100%) invert(100%)
+}
+.darkmode-toggle{cursor: pointer;}
+
 html,
 body {
   position: relative;

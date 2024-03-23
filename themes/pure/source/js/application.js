@@ -12,6 +12,14 @@ $(function() {
       // allowPageScroll: true
     });
   }
+  
+  var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+  $('html').attr({'data-dark': localStorage.dark || prefersDarkMode.matches})
+  $(document).off('click', '.darkmode-toggle').on('click', '.darkmode-toggle', function(){
+    var isDark = $('html').attr('data-dark');
+    localStorage.dark = !(isDark == 'true');
+    $('html').attr({'data-dark': localStorage.dark})
+  })
 
   $('#collapseToc').on('shown.bs.collapse', function() {
     // do something…

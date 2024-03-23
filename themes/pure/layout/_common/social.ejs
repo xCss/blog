@@ -4,5 +4,6 @@
     	<% for(var i in theme.profile.social.links) { %>
         <li><a href="<%- url_for(theme.profile.social.links[i]) %>" target="_blank" title="<%= titlecase(i) %>" <%= tooltipClass %>><i class="icon icon-<%= i %>"></i></a></li>
         <% } %>
+        <li><div class="darkmode-toggle" title="主题切换" <%= tooltipClass %>>🌓</div></li>
     </ul>
 <% } %>
