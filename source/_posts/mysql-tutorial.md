@@ -24,7 +24,7 @@ categories: 学习笔记
 $ apt-get install mysql-server mysql-client
 ```
 其中mysql-server是服务器程序，mysql-client是客户端程序。安装过程中会有如下提示，需要设置mysql数据库密码；输入要设置的密码后，回车即可继续安装。
-![](https://tva2.sinaimg.com/large/006qRazegy1fdwzjbm227j30in0bmwhm.jpg)
+![](https://img2.imgtp.com/2024/03/23/Xt3HtrJ1.png)
 > 如果出现`Unable to locate package mysql-server`等错误，请先执行`apt-get update`后重试。
 
 # 登录

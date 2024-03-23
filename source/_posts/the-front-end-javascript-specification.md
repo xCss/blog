@@ -7,7 +7,7 @@ tags:
 categories: 学习笔记
 ---
 
-![](https://tva2.sinaimg.com/large/006qRazegw1f41ptt98crj30jg05kmx5.jpg)
+![](https://img2.imgtp.com/2024/03/23/f95idnmO.jpg)
 
 ## 类型
 **原始值**:相当于传值(JavaScript对象都提供了字面量)，使用字面量创建对象。  

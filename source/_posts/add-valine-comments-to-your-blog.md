@@ -7,7 +7,7 @@ tags:
     - Minimalist
 categories: 学习笔记
 ---
-![Valine](https://tva2.sinaimg.com/large/006qRazegy1flcucgbhmuj30sf0o3mxy.jpg)
+![Valine](https://img2.imgtp.com/2024/03/23/WLqYOfWP.png)
 
 > [Valine](https://Valine.js.org) - 一款极简的`无后端`评论系统.
 
@@ -24,9 +24,9 @@ categories: 学习笔记
 1. [点击这里登录或注册`Leancloud`](https://leancloud.cn/dashboard/login.html#/signup)
 2. [点这里创建应用](https://leancloud.cn/dashboard/applist.html#/newapp)，应用名看个人喜好。
 3. 选择刚刚创建的`应用`>`设置`>选择`应用 Key`，然后你就能看到你的`APP ID`和`APP KEY`了，参考下图：
-    ![](https://tva2.sinaimg.com/large/006qRazegy1fibactm2csj30x80f2dhn.jpg)
+    ![](https://img2.imgtp.com/2024/03/23/Wco7Z5H2.png)
 4. 为了您的数据安全，请填写`应用`>`设置`>`安全设置`中的`Web 安全域名`，如下图：
-    ![](https://tva2.sinaimg.com/large/006qRazegy1fiba67warvj30re0k5abv.jpg)
+    ![](https://img2.imgtp.com/2024/03/23/E8Q9R7K9.png)
 
 ## 页面中的设置
 页面中的食用方法炒鸡简单，来来来，我们用代码说话：
@@ -61,7 +61,7 @@ categories: 学习笔记
 # 评论数据管理
 插播一下，关于评论数据管理，请自行登录`Leancloud`应用管理。
 具体步骤：`登录`>选择你创建的`应用`>`存储`>选择Class`Comment`，然后就可以尽情的发挥你的权利啦(～￣▽￣)～ 
-![](https://tva2.sinaimg.com/large/006qRazegy1fibb4pbvv4j31820iqjw0.jpg)
+![](https://img2.imgtp.com/2024/03/23/50Kg2g5x.png)
 
 
 -----------------------------------------  

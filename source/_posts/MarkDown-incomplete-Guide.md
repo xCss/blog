@@ -5,7 +5,7 @@ tags:
     - Guide
 categories: 学习笔记
 ---
-![](https://tva2.sinaimg.com/large/0060lm7Tgw1f456ew31f7j30jg05kdfu.jpg)
+![](https://img2.imgtp.com/2024/03/23/6KjbB2RQ.jpg)
 # Markdown
 A markdown example shows how to write a markdown file. This document integrates core syntax and extensions (GMF).
 

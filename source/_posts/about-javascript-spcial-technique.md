@@ -8,7 +8,7 @@ tags:
      - 前端
 categories: 学习笔记
 ---
-![](https://tva2.sinaimg.com/large/006qRazegw1f41ptt98crj30jg05kmx5.jpg)
+![](https://img2.imgtp.com/2024/03/23/f95idnmO.jpg)
 <blockquote class="blockquote-center">这里记录一下以前学习各种书籍和文章里边出现的JS的小技巧，分享给大家，也供自己查阅，同时感谢那些发现创造和分享这些技巧的前辈和大牛们。</blockquote>
 ## 遍历一个obj的属性到数组  
 ```

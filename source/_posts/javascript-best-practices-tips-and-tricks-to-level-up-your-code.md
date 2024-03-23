@@ -10,7 +10,7 @@ author: "@johnnyb"
 social: https://www.codementor.io/johnnyb
 ---
 
-![](https://tva2.sinaimg.com/large/006qRazegw1f7f8plb62gj30p00cimxw.jpg)
+![](https://img2.imgtp.com/2024/03/23/8VLs8ZYS.jpg)
 
 每天学习新事物是成为一个伟大的人的一部分。而对开发者而言，持续不断学习新的东西是我们工作中的一部分，无论这些东西是否是你主动想学的。
 
