@@ -169,7 +169,7 @@ postCount:
   min2read: true  # 阅读时长预计 
 
 analytics:
-  google_analytics: UA-61934506-1 # enter the tracking ID for your Google Analytics 
+  google_analytics: # UA-61934506-1 # enter the tracking ID for your Google Analytics 
   google_site_verification: "fto43W1-4i099gqlMImLOannS1KjzlC5A-a1dnT0iVs" # enter Google site verification code
   baidu_analytics: 2119376191e432c012a0713bcca8a8ea # enter Baidu Analytics hash key
   tencent_analytics: 
