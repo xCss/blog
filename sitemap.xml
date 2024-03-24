@@ -164,25 +164,16 @@
   </url>
   
   <url>
-    <loc>https://ioliu.cn/404.html</loc>
-    
-    <lastmod>2024-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ioliu.cn/404.html</loc>
-    
-    <lastmod>2024-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ioliu.cn/about/index.html</loc>
+    
+    <lastmod>2024-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioliu.cn/categories/index.html</loc>
     
     <lastmod>2024-03-24</lastmod>
     
@@ -200,7 +191,16 @@
   </url>
   
   <url>
-    <loc>https://ioliu.cn/categories/index.html</loc>
+    <loc>https://ioliu.cn/404.html</loc>
+    
+    <lastmod>2024-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioliu.cn/404.html</loc>
     
     <lastmod>2024-03-24</lastmod>
     
