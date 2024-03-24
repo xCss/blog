@@ -168,12 +168,13 @@ postCount:
   wordcount: true  # 文章字数统计
   min2read: true  # 阅读时长预计 
 
-analytics:
+analytics: 
+  umami_analytics: 85697b8b-2a8b-4444-a092-e22c22016b24 
   google_analytics: # UA-61934506-1 # enter the tracking ID for your Google Analytics 
-  google_site_verification: "fto43W1-4i099gqlMImLOannS1KjzlC5A-a1dnT0iVs" # enter Google site verification code
-  baidu_analytics: 2119376191e432c012a0713bcca8a8ea # enter Baidu Analytics hash key
+  google_site_verification: # "fto43W1-4i099gqlMImLOannS1KjzlC5A-a1dnT0iVs" # enter Google site verification code
+  baidu_analytics: # 2119376191e432c012a0713bcca8a8ea # enter Baidu Analytics hash key
   tencent_analytics: 
-  cf_analytics: 2eb4a0fe57764631afe9f6bcb71d6c35
+  cf_analytics: # 2eb4a0fe57764631afe9f6bcb71d6c35
 
 # Miscellaneous 
 twitter:
