@@ -45,6 +45,7 @@ categories: 学习笔记
 
 ```bash
 sudo apt-get -t bullseye-backports install linux-image-6.x.x-x-amd64
+sudo apt-get -t bullseye-backports install linux-headers-6.x.x-x-amd64
 ```
 
 请确保替换命令中的版本号为你想要安装的实际版本。
