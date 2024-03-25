@@ -57,7 +57,7 @@ pagination:
 sidebar: right
 widgets:
   - board  
-  - category
+  # - category
   # - tag
   - tagcloud
   - archive
