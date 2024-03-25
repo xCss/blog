@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://ioliu.cn/2015/the-front-end-javascript-specification/</loc>
+    <lastmod>2024-03-25</lastmod>
+  </url>
+  <url>
+    <loc>https://ioliu.cn/2024/upgrade-debian-kernel-version/</loc>
+    <lastmod>2024-03-25</lastmod>
+  </url>
+  <url>
     <loc>https://ioliu.cn/2016/MarkDown-incomplete-Guide/</loc>
     <lastmod>2024-03-25</lastmod>
   </url>
@@ -50,14 +58,6 @@
   </url>
   <url>
     <loc>https://ioliu.cn/2017/mysql-tutorial/</loc>
-    <lastmod>2024-03-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ioliu.cn/2024/upgrade-debian-kernel-version/</loc>
-    <lastmod>2024-03-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ioliu.cn/2015/the-front-end-javascript-specification/</loc>
     <lastmod>2024-03-25</lastmod>
   </url>
 </urlset> 
