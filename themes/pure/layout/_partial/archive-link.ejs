@@ -29,6 +29,14 @@
           <% } %>
     </div>
   </div>
+  <blockquote >
+    <ul class="list-unstyled">
+      <li >名称：<%= config.title %></li>
+      <li >头像：<%= config.url+theme.site.logo.url %></li>
+      <li >链接：<%= config.url %></li>
+      <li >介绍：<%= config.subtitle %></li>
+    </ul>
+  </blockquote>
 </article>
 <% if (theme.comment.type && !is_home()) { %>
   <%- partial('_partial/post/comment', {post: page}) %>
