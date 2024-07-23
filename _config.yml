@@ -138,8 +138,8 @@ neat_js:
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: 
-    github: git@github.com:xcss/notes.git,master
+# deploy:
+#   type: git
+#   repo: 
+#     github: git@github.com:xcss/notes.git,master
     # coding: git@git.coding.net:msg/msg,coding-pages

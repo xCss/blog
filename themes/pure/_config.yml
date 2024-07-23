@@ -111,7 +111,7 @@ comment:
   type: valine  # 启用哪种评论系统
   disqus:  # enter disqus shortname here
   youyan: 
-    uid: 1783844 # enter youyan uid 
+    uid: # 1783844 # enter youyan uid 
   livere:
     uid: # enter youyan uid 
   gitment:
@@ -183,7 +183,7 @@ fb_admins:
 fb_app_id:  
   
 # profile  
-profile:
+profile: 
   enabled: true # Whether to show profile bar 
   avatar: /images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
